@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.venv*/
+wheels/
+
+# large or local-only artifacts
+*.pt
+*.safetensors
+*.bin
+*.npz
+data/*
+!data/tokenizer/
+runs/**/backup/
+runs/**/ckpt_*/
+runs/mac_eval/ckpt_*/
+runs/mac_eval/s[0-9]_*/
+
+# logs
+*.log
+*.jsonl
+!runs/**/log.jsonl

@@ -1,0 +1,29 @@
+# Main pretraining, 4K context, 25B tokens, 1 x RTX 4090. Last launch of the run (it was resumed from checkpoints several times).
+# Run through scripts/supervise.py (restarts after crashes); <...> are local paths.
+python scripts/train.py \
+  --preset main_2b \
+  --data data/bins_main \
+  --out runs/main \
+  --ckpt-dir <checkpoint_dir> \
+  --ckpt-every 100 \
+  --backup-every 0 \
+  --total-tokens 2.5e10 \
+  --micro-bsz 2 \
+  --global-tokens 524288 \
+  --lr 2e-3 \
+  --grad-ckpt \
+  --ckpt-frac 0.0 \
+  --offload-master \
+  --fused-grad-acc \
+  --muon-impl batched_fused \
+  --override '{"moe_impl": "triton", "ce_impl": "fused", "attnres_impl": "fused", "ce_blas": "cublaslt", "kda_keep_layers": 12, "conv_impl": "fla_gluon", "moe_shared_fused": "router_lean", "moe_sort": "counting"}' \
+  --engram-early \
+  --state-min-bytes 1048576 \
+  --engram-native \
+  --async-ckpt \
+  --offload-opt \
+  --fuse \
+  --muon-bf16 \
+  --mid-mix reasoning_s2 \
+  --mid-from 12158 \
+  --anneal-mix reasoning_anneal_code_s2

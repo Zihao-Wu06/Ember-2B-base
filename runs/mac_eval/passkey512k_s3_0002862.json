@@ -1,0 +1,129 @@
+{
+ "step": 2862,
+ "logn": false,
+ "buckets": [
+  [
+   0,
+   1024
+  ],
+  [
+   1024,
+   2048
+  ],
+  [
+   2048,
+   4096
+  ],
+  [
+   4096,
+   8192
+  ],
+  [
+   8192,
+   16384
+  ],
+  [
+   16384,
+   32768
+  ],
+  [
+   32768,
+   65536
+  ],
+  [
+   65536,
+   131072
+  ],
+  [
+   131072,
+   262144
+  ],
+  [
+   262144,
+   524288
+  ]
+ ],
+ "passkey": [
+  {
+   "length": 524288,
+   "tokens": 524274,
+   "depth": 0.05,
+   "key": 60494,
+   "answer": " 60494. Remember",
+   "ok": true
+  },
+  {
+   "length": 524288,
+   "tokens": 524274,
+   "depth": 0.15,
+   "key": 65125,
+   "answer": " 65125. Remember",
+   "ok": true
+  },
+  {
+   "length": 524288,
+   "tokens": 524274,
+   "depth": 0.25,
+   "key": 15306,
+   "answer": " 15306. The",
+   "ok": true
+  },
+  {
+   "length": 524288,
+   "tokens": 524274,
+   "depth": 0.35,
+   "key": 43936,
+   "answer": " 43936. The",
+   "ok": true
+  },
+  {
+   "length": 524288,
+   "tokens": 524274,
+   "depth": 0.45,
+   "key": 77013,
+   "answer": " 77013. The",
+   "ok": true
+  },
+  {
+   "length": 524288,
+   "tokens": 524274,
+   "depth": 0.55,
+   "key": 73691,
+   "answer": " 73691. The",
+   "ok": true
+  },
+  {
+   "length": 524288,
+   "tokens": 524274,
+   "depth": 0.65,
+   "key": 63075,
+   "answer": " 63075. The",
+   "ok": true
+  },
+  {
+   "length": 524288,
+   "tokens": 524274,
+   "depth": 0.75,
+   "key": 49755,
+   "answer": " 49755. The",
+   "ok": true
+  },
+  {
+   "length": 524288,
+   "tokens": 524274,
+   "depth": 0.85,
+   "key": 72468,
+   "answer": " 72468. The",
+   "ok": true
+  },
+  {
+   "length": 524288,
+   "tokens": 524274,
+   "depth": 0.95,
+   "key": 56930,
+   "answer": " 56930. The",
+   "ok": true
+  }
+ ],
+ "seconds": 1203
+}

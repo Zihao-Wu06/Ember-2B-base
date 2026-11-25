@@ -1,0 +1,30 @@
+# S3: 128K context, 1.5B tokens, 1 x B300, initialized from the final S2 weights (bf16, no optimizer state).
+# Run through scripts/supervise.py (restarts after crashes); <...> are local paths.
+python scripts/train.py \
+  --preset main_2b \
+  --data data/bins_main \
+  --out runs/longctx_s3 \
+  --ckpt-dir <checkpoint_dir> \
+  --ckpt-every 100 \
+  --backup-every 1 \
+  --keep-backups 2 \
+  --total-tokens 1.5e9 \
+  --seq-len 131072 \
+  --short-seq-len 4096 \
+  --micro-bsz 1 \
+  --global-tokens 524288 \
+  --lr 2e-4 \
+  --warmup 100 \
+  --decay-frac 0.15 \
+  --muon-impl batched_fused \
+  --override '{"moe_impl": "triton", "ce_impl": "fused", "attnres_impl": "fused", "ce_blas": "cublaslt", "kda_keep_layers": 12, "conv_impl": "fla_gluon", "moe_shared_fused": "router_lean", "moe_sort": "counting", "attn_logn": 4096, "max_seq_len": 131072, "engram_offload": false}' \
+  --engram-early \
+  --engram-native \
+  --async-ckpt \
+  --fuse \
+  --muon-bf16 \
+  --mix longctx_s3 \
+  --init-from <s2_final_weights_bf16.pt> \
+  --peak-tflops 2250 \
+  --init-no-opt \
+  --short-micro-bsz 32

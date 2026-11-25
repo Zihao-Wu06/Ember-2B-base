@@ -1,0 +1,482 @@
+{
+ "step": 2862,
+ "logn": 4096,
+ "scores": {
+  "niah_single@524288": 80.0,
+  "niah_multikey@524288": 30.0,
+  "niah_multivalue@524288": 22.5,
+  "vt@524288": 0.0
+ },
+ "samples": [
+  {
+   "length": 524288,
+   "tokens": 524287,
+   "task": "niah_single",
+   "want": [
+    "8056020"
+   ],
+   "output": " 8056020. The magic number for kettle is",
+   "score": 1.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524283,
+   "task": "niah_single",
+   "want": [
+    "9152513"
+   ],
+   "output": " 9152513.. The number 9152",
+   "score": 1.0
+  },
+  {
+   "length": 524288,
+   "tokens": 523981,
+   "task": "niah_single",
+   "want": [
+    "8995970"
+   ],
+   "output": " 100000000000000",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524263,
+   "task": "niah_single",
+   "want": [
+    "9467240"
+   ],
+   "output": " 9467240.. The magic number for cactus is ",
+   "score": 1.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524279,
+   "task": "niah_single",
+   "want": [
+    "5202798"
+   ],
+   "output": " 5202798.. The number 5202",
+   "score": 1.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524284,
+   "task": "niah_single",
+   "want": [
+    "6203412"
+   ],
+   "output": " 6203412.. What is the special magic number for",
+   "score": 1.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524280,
+   "task": "niah_single",
+   "want": [
+    "8921240"
+   ],
+   "output": " 13. The number 13 is a magic number in the Hindu",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524264,
+   "task": "niah_single",
+   "want": [
+    "6304900"
+   ],
+   "output": " 6304900.. The number 6304",
+   "score": 1.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524237,
+   "task": "niah_single",
+   "want": [
+    "9002896"
+   ],
+   "output": " 9002896.. The magic number for cactus is ",
+   "score": 1.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524243,
+   "task": "niah_single",
+   "want": [
+    "2044878"
+   ],
+   "output": " 2044878.. The number 2044",
+   "score": 1.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524282,
+   "task": "niah_multikey",
+   "want": [
+    "5092145"
+   ],
+   "output": ": 6589080. The number 658",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524280,
+   "task": "niah_multikey",
+   "want": [
+    "5883691"
+   ],
+   "output": " 5883691.. The number 5883",
+   "score": 1.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524287,
+   "task": "niah_multikey",
+   "want": [
+    "5870920"
+   ],
+   "output": ": 4132801. The magic number for violin is",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524254,
+   "task": "niah_multikey",
+   "want": [
+    "9800890"
+   ],
+   "output": " 5624373. This number is a prime number and",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524277,
+   "task": "niah_multikey",
+   "want": [
+    "2935247"
+   ],
+   "output": ": 6441267. Germany participated in the 1",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524287,
+   "task": "niah_multikey",
+   "want": [
+    "2687914"
+   ],
+   "output": ": 2687914. Playing the game of chess is",
+   "score": 1.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524244,
+   "task": "niah_multikey",
+   "want": [
+    "3078615"
+   ],
+   "output": " 1363000.. What is the special magic number for",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524270,
+   "task": "niah_multikey",
+   "want": [
+    "6050974"
+   ],
+   "output": " 8316017. The number 8316",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524280,
+   "task": "niah_multikey",
+   "want": [
+    "4412732"
+   ],
+   "output": ": 4412732. The special magic number for breeze",
+   "score": 1.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524246,
+   "task": "niah_multikey",
+   "want": [
+    "6992010"
+   ],
+   "output": ": 7520334. The number 752",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 522212,
+   "task": "niah_multivalue",
+   "want": [
+    "5712437",
+    "3262199",
+    "5028719",
+    "9083717"
+   ],
+   "output": " hidden within the provided text. Make sure to memorize it. I will quiz you about the numbers afterwards. 1. 2. 3. 4. 5. 6. 7. 8. 9.",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524280,
+   "task": "niah_multivalue",
+   "want": [
+    "6205929",
+    "7509848",
+    "7952780",
+    "2354309"
+   ],
+   "output": ": 6205929. 6205929. 6205929. 6205929. 6205929. 6",
+   "score": 0.25
+  },
+  {
+   "length": 524288,
+   "tokens": 524288,
+   "task": "niah_multivalue",
+   "want": [
+    "7352660",
+    "7952585",
+    "1529245",
+    "7748921"
+   ],
+   "output": " 7352660, 7352660, 7352660, 7352660, 7352660, 73",
+   "score": 0.25
+  },
+  {
+   "length": 524288,
+   "tokens": 524286,
+   "task": "niah_multivalue",
+   "want": [
+    "3645541",
+    "8488757",
+    "9851208",
+    "9174960"
+   ],
+   "output": ": 3645541. Accounting Source Documents Bookkeeping Test Source Documents questions: Here is a sampling of the questions:- What is a source document?. When are credit notes issued?. Who gets the document?. Are there many",
+   "score": 0.25
+  },
+  {
+   "length": 524288,
+   "tokens": 524280,
+   "task": "niah_multivalue",
+   "want": [
+    "1836461",
+    "7964850",
+    "4154138",
+    "2400344"
+   ],
+   "output": " 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, ",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524283,
+   "task": "niah_multivalue",
+   "want": [
+    "1239768",
+    "1039553",
+    "9864174",
+    "2640549"
+   ],
+   "output": ": 1239768. The cactus is a genus of flowering plants in the family Cactaceae.. The genus name is derived from the Greek word kakos, meaning \"spike\" or \"spike-like",
+   "score": 0.25
+  },
+  {
+   "length": 524288,
+   "tokens": 524268,
+   "task": "niah_multivalue",
+   "want": [
+    "2680753",
+    "8979335",
+    "7655457",
+    "2364749"
+   ],
+   "output": " 2680753, 2680754, 2680755, 2680756, 2680757, 26",
+   "score": 0.25
+  },
+  {
+   "length": 524288,
+   "tokens": 524265,
+   "task": "niah_multivalue",
+   "want": [
+    "9738673",
+    "6822583",
+    "2931214",
+    "3591075"
+   ],
+   "output": ": 9738673. Name During the Dutch colonial era, the future site of the present-day city of Amsterdam was known as the Dutch Harbor.. The Dutch settlers established a settlement in the area in 164",
+   "score": 0.25
+  },
+  {
+   "length": 524288,
+   "tokens": 524251,
+   "task": "niah_multivalue",
+   "want": [
+    "7155456",
+    "1704719",
+    "9296092",
+    "8695111"
+   ],
+   "output": ": 1. 7155456 2. 9296092 3. 1704719 4. 9296092 5.",
+   "score": 0.75
+  },
+  {
+   "length": 524288,
+   "tokens": 522814,
+   "task": "niah_multivalue",
+   "want": [
+    "1149268",
+    "3322922",
+    "3533748",
+    "5552890"
+   ],
+   "output": " hidden within the following text. Make sure to memorize it. I will quiz you about the numbers afterwards. 1. 2. 3. 4. 5. 6. 7. 8. 9.",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524018,
+   "task": "vt",
+   "want": [
+    "BBIFE",
+    "SJLMR",
+    "EJDPX",
+    "HBJFQ",
+    "XCJMK"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524276,
+   "task": "vt",
+   "want": [
+    "ZKDPD",
+    "WPNBJ",
+    "KXVEF",
+    "USMZU",
+    "CCZCG"
+   ],
+   "output": " 1. A 2. B 3. C 4. D 5. E 6. F 7. G 8. H 9. I 10.",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524281,
+   "task": "vt",
+   "want": [
+    "ZSWVG",
+    "NCLHI",
+    "SYFNG",
+    "LDCWA",
+    "QOYVG"
+   ],
+   "output": " 1) a, 2) B, 3) C, 4) D, 5) E. Question: What is the value of variable C? Answer: The value of",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524205,
+   "task": "vt",
+   "want": [
+    "EDGOM",
+    "LREDT",
+    "PESMU",
+    "VNQPV",
+    "KPPUV"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524254,
+   "task": "vt",
+   "want": [
+    "KBQEI",
+    "TZEMS",
+    "JWWZP",
+    "CZCQB",
+    "CHEBJ"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524282,
+   "task": "vt",
+   "want": [
+    "QMQQB",
+    "SCVZZ",
+    "QYTCX",
+    "NYGJR",
+    "TNPZM"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524264,
+   "task": "vt",
+   "want": [
+    "JQSIK",
+    "CPIJY",
+    "NMZMB",
+    "FUEHJ",
+    "XKBBP"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524228,
+   "task": "vt",
+   "want": [
+    "LNBTO",
+    "MOBDP",
+    "YEABT",
+    "TEUKD",
+    "WRULG"
+   ],
+   "output": " 1) a variable called \"a\" 2) a variable called \"b\" 3) a variable called \"c\" 4) a variable called \"d\" 5) a",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 522768,
+   "task": "vt",
+   "want": [
+    "UDVWT",
+    "JZEMZ",
+    "JXVZD",
+    "QZGBZ",
+    "MOLYG"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 524288,
+   "tokens": 524246,
+   "task": "vt",
+   "want": [
+    "AQVSS",
+    "GHCYU",
+    "YQWQN",
+    "QJDEN",
+    "SNCDN"
+   ],
+   "output": " 1. a variable name 2. a variable name 3. a variable name 4. a variable name 5. a variable name. Question: Find all variables that are assigned the",
+   "score": 0.0
+  }
+ ]
+}

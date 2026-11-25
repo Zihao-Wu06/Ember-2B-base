@@ -1,0 +1,15 @@
+# Ablations: each arm 0.25B tokens at 4K context, 1 x RTX 4090. <arm> is the directory name, e.g. A_moe_fullattn.
+python scripts/train.py --preset ablation:<arm> \
+  --out runs/ablation/<arm> \
+  --total-tokens 2.5e8 \
+  --seq-len 4096 \
+  --data data/bins \
+  --canon data/tokenizer/canon_map.npy \
+  --micro-bsz 4 \
+  --global-tokens 262144 \
+  --lr 3e-3 \
+  --warmup 150 \
+  --grad-ckpt \
+  --eval-every 200 \
+  --eval-batches 16 \
+  --ckpt-every 400

@@ -1,0 +1,952 @@
+{
+ "step": 2862,
+ "logn": 4096,
+ "scores": {
+  "niah_single@262144": 90.0,
+  "niah_multikey@262144": 70.0,
+  "niah_multivalue@262144": 47.5,
+  "vt@262144": 0.0
+ },
+ "samples": [
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_single",
+   "want": [
+    "8056020"
+   ],
+   "output": " 8056020.. The magic number for kettle is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262114,
+   "task": "niah_single",
+   "want": [
+    "9152513"
+   ],
+   "output": " 9152513. The special magic number for thunder mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262137,
+   "task": "niah_single",
+   "want": [
+    "8995970"
+   ],
+   "output": " 8995970. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262123,
+   "task": "niah_single",
+   "want": [
+    "9467240"
+   ],
+   "output": " 12. In the provided text, the magic number for cactus is ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_single",
+   "want": [
+    "5202798"
+   ],
+   "output": " 5202798. The number 5202",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262117,
+   "task": "niah_single",
+   "want": [
+    "6203412"
+   ],
+   "output": " 6203412. The number 6203",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262119,
+   "task": "niah_single",
+   "want": [
+    "8921240"
+   ],
+   "output": " 8921240. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_single",
+   "want": [
+    "6304900"
+   ],
+   "output": " 6304900. The number 6304",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_single",
+   "want": [
+    "9002896"
+   ],
+   "output": " 9002896.. The magic number for cactus is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_single",
+   "want": [
+    "2044878"
+   ],
+   "output": " 2044878. The special magic number for breeze mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_single",
+   "want": [
+    "7691148"
+   ],
+   "output": " 7691148. The magic number for violin is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_single",
+   "want": [
+    "6589080"
+   ],
+   "output": " 6589080. This number is used in the saddle",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_single",
+   "want": [
+    "4205573"
+   ],
+   "output": " 4205573. We will discuss the significance of this",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_single",
+   "want": [
+    "8515682"
+   ],
+   "output": " 8515682. 1999 is the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 261781,
+   "task": "niah_single",
+   "want": [
+    "9521829"
+   ],
+   "output": " 100000000000000",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_single",
+   "want": [
+    "5883691"
+   ],
+   "output": " 5883691. The magic number for zephyr",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262110,
+   "task": "niah_single",
+   "want": [
+    "4409161"
+   ],
+   "output": " 4409161. The number 4409",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_single",
+   "want": [
+    "8465677"
+   ],
+   "output": " 8465677. The magic number for dagger is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262117,
+   "task": "niah_single",
+   "want": [
+    "6319163"
+   ],
+   "output": ": 6319163.. What is the special magic number",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262092,
+   "task": "niah_single",
+   "want": [
+    "4177459"
+   ],
+   "output": " 4177459. Marble is a type of rock",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262103,
+   "task": "niah_multikey",
+   "want": [
+    "2346343"
+   ],
+   "output": " 2346343. The magic number for violin is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_multikey",
+   "want": [
+    "2935247"
+   ],
+   "output": ": 2935247. The magic number for saddle is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_multikey",
+   "want": [
+    "8149294"
+   ],
+   "output": " 8149294. This number is a combination of two",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262140,
+   "task": "niah_multikey",
+   "want": [
+    "3008156"
+   ],
+   "output": ": 3008156. The special magic number for maple",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262113,
+   "task": "niah_multikey",
+   "want": [
+    "2702891"
+   ],
+   "output": " 2702891. The magic number for cactus is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262071,
+   "task": "niah_multikey",
+   "want": [
+    "7015559"
+   ],
+   "output": " 5364311. \u00d7 3 rounds + 1",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multikey",
+   "want": [
+    "9532894"
+   ],
+   "output": " 6225196. The special magic number for marble mentioned",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_multikey",
+   "want": [
+    "5028719"
+   ],
+   "output": ": 5028719. The magic number for candle is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "task": "niah_multikey",
+   "want": [
+    "1025572"
+   ],
+   "output": ": 1025572. In other words, it is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262133,
+   "task": "niah_multikey",
+   "want": [
+    "3645541"
+   ],
+   "output": ": 3645541. In the provided text, the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multikey",
+   "want": [
+    "8833151"
+   ],
+   "output": " 1836461. The special magic number for candle mentioned",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_multikey",
+   "want": [
+    "4330552"
+   ],
+   "output": ": 4330552. The magic number for umbrella is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_multikey",
+   "want": [
+    "9738673"
+   ],
+   "output": ": 3238425. The magic number for oyster is",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262127,
+   "task": "niah_multikey",
+   "want": [
+    "8305481"
+   ],
+   "output": " 8695111. The number has been used in the",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_multikey",
+   "want": [
+    "3749123"
+   ],
+   "output": " 3749123. This number is a combination of ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262124,
+   "task": "niah_multikey",
+   "want": [
+    "6077971"
+   ],
+   "output": ": 6077971. This untested experiment caused oil",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262130,
+   "task": "niah_multikey",
+   "want": [
+    "1634587"
+   ],
+   "output": " 1634587. The number 1634",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 261881,
+   "task": "niah_multikey",
+   "want": [
+    "2645450"
+   ],
+   "output": " 2645450. It has even been suggested that the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_multikey",
+   "want": [
+    "5377453"
+   ],
+   "output": ": 3794767. The number 379",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multikey",
+   "want": [
+    "9339743"
+   ],
+   "output": " 9339743. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "task": "niah_multivalue",
+   "want": [
+    "2757350",
+    "9185627",
+    "3489772",
+    "7809987"
+   ],
+   "output": " 2757350, 7809987, 3489772, 7809987, 3489772, 78",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multivalue",
+   "want": [
+    "9362450",
+    "9365901",
+    "4388851",
+    "4670403"
+   ],
+   "output": " 9362450, 4388851, 1767040, 1067040, 1067040, 10",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262115,
+   "task": "niah_multivalue",
+   "want": [
+    "9809840",
+    "3489183",
+    "5309763",
+    "3615657"
+   ],
+   "output": " 9809840. The number 9809840 is a special magic number for candle. The number 9809840 is a special magic number for candle. The number ",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multivalue",
+   "want": [
+    "9665898",
+    "1661287",
+    "2113246",
+    "4776394"
+   ],
+   "output": ": 4776394. The special magic numbers for violin mentioned in the provided text are: 4776394. The special magic numbers for violin mentioned in the provided text are: 47",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_multivalue",
+   "want": [
+    "3496776",
+    "8729852",
+    "7229747",
+    "9472488"
+   ],
+   "output": " 3496776, 8729852, 9472488, 7229747, 3496776, 87",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_multivalue",
+   "want": [
+    "2281076",
+    "8153245",
+    "4457865",
+    "5859757"
+   ],
+   "output": " 2281076, 5859757, 10765859, 15859757, 2281076, ",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multivalue",
+   "want": [
+    "4918672",
+    "1343627",
+    "1004038",
+    "4052931"
+   ],
+   "output": ": 4918672. The Best of Muddy Waters is a greatest hits album by Muddy Waters released by Chess Records in April 1958.. The album is the first by Waters and the third by",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262106,
+   "task": "niah_multivalue",
+   "want": [
+    "7846331",
+    "7445130",
+    "7437072",
+    "2044528"
+   ],
+   "output": ": 7445130. In the provided text, the special magic numbers for ember are: 7445130. In the provided text, the special magic numbers for ember are: ",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262124,
+   "task": "niah_multivalue",
+   "want": [
+    "1602869",
+    "9075384",
+    "8010628",
+    "3363991"
+   ],
+   "output": " 1602869, 1602869, 1602869, 1602869, 1602869, 16",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262110,
+   "task": "niah_multivalue",
+   "want": [
+    "7897787",
+    "1590218",
+    "8822862",
+    "7487464"
+   ],
+   "output": ": 7897787. The person doing the SWAT can facilitate this by, for example, contacting those who have done a relevant Cochrane Methodology Review , to let them know about the SWAT.. This means that",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262142,
+   "task": "niah_multivalue",
+   "want": [
+    "6434330",
+    "2766520",
+    "6816123",
+    "4271114"
+   ],
+   "output": ": 6434330. The variable hawk (Geranoaetus polyosoma) is a polymorphic species of bird of prey in the family Accipitridae.. It is widespread and often common in open habitats",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_multivalue",
+   "want": [
+    "6668440",
+    "3085807",
+    "5972538",
+    "3132537"
+   ],
+   "output": ": 3085807, 5972538, 3132537, 5972538, 3085807, 5",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_multivalue",
+   "want": [
+    "9707497",
+    "4173032",
+    "1640628",
+    "7577111"
+   ],
+   "output": ": 9707497, 1640628, 4173032, 7577111, 1640628, 7",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262090,
+   "task": "niah_multivalue",
+   "want": [
+    "1670764",
+    "9156496",
+    "5284671",
+    "1447213"
+   ],
+   "output": " 1670764, 1670765, 1670766, 1670767, 1670768, 16",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multivalue",
+   "want": [
+    "9786421",
+    "8048294",
+    "9507839",
+    "6122278"
+   ],
+   "output": " 9786421, 9786422, 9786423, 9786424, 9786425, 97",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262119,
+   "task": "niah_multivalue",
+   "want": [
+    "7973302",
+    "2055669",
+    "2664484",
+    "7965253"
+   ],
+   "output": " 2664484, 7965253, 2664484, 7965253, 2664484, 79",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262103,
+   "task": "niah_multivalue",
+   "want": [
+    "9331981",
+    "6444191",
+    "5237688",
+    "2317658"
+   ],
+   "output": " 9331981, 6444191, 5237688, 2317658, 9331981, 64",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262052,
+   "task": "niah_multivalue",
+   "want": [
+    "4867039",
+    "7137147",
+    "2183089",
+    "3404026"
+   ],
+   "output": " 7137147. The number 7137147 is a special magic number for apple. The number 7137147 is a special magic number for apple. The number ",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262120,
+   "task": "niah_multivalue",
+   "want": [
+    "5920135",
+    "7192976",
+    "1413558",
+    "4906794"
+   ],
+   "output": " 5920135, 7192976, 1413558, 1413559, 1413559, 14",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262053,
+   "task": "niah_multivalue",
+   "want": [
+    "1468692",
+    "4491676",
+    "7077376",
+    "6620588"
+   ],
+   "output": ": 1468692. The special magic numbers for meadow mentioned in the provided text are: 1468692. The special magic numbers for meadow mentioned in the provided text are: 14",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262140,
+   "task": "vt",
+   "want": [
+    "KFSCD",
+    "RSJFM",
+    "EEZHK",
+    "QHHYF",
+    "JLNVB"
+   ],
+   "output": " 1. a, 2. b, 3. c, 4. d, 5. e. Question: Find all variables that are assigned the value 2733",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262113,
+   "task": "vt",
+   "want": [
+    "XESNJ",
+    "ULCHO",
+    "ULUQB",
+    "MNANX",
+    "KOGLJ"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "vt",
+   "want": [
+    "ZWOMF",
+    "YNNFH",
+    "OKQEL",
+    "OUUCP",
+    "YGJAW"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262102,
+   "task": "vt",
+   "want": [
+    "TENWY",
+    "PCVPY",
+    "HRYMI",
+    "UADIV",
+    "BAIMQ"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262112,
+   "task": "vt",
+   "want": [
+    "GTCBC",
+    "ZIJRK",
+    "DQHYF",
+    "CNJJQ",
+    "ESQUG"
+   ],
+   "output": " 1. The variable \"a\" 2. The variable \"b\" 3. The variable \"c\" 4. The variable \"d\" 5. The variable \"e\"",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "vt",
+   "want": [
+    "JOLSU",
+    "EFDWD",
+    "MMSOE",
+    "RVJLU",
+    "PXNGP"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262127,
+   "task": "vt",
+   "want": [
+    "BTGAL",
+    "PMAQC",
+    "VCVXV",
+    "MALBD",
+    "TAIUW"
+   ],
+   "output": " 1. A variable that is assigned the value 48342. 2. A variable that is assigned the value 48342. 3. A variable that",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "vt",
+   "want": [
+    "MFKNU",
+    "VNEOW",
+    "EQKEG",
+    "FOLZM",
+    "NZPMX"
+   ],
+   "output": " 1. A variable named \"a\" 2. A variable named \"b\" 3. A variable named \"c\" 4. A variable named \"d\" 5. A",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262123,
+   "task": "vt",
+   "want": [
+    "UCFLB",
+    "XUVFH",
+    "TJTCW",
+    "QYJYL",
+    "NOBUW"
+   ],
+   "output": " -a, -b, -c, -d, -e, -f, -g, -h, -i, -j, -k, -l, -m, -",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "vt",
+   "want": [
+    "PIWPG",
+    "KIBBB",
+    "FLAJU",
+    "AECZN",
+    "VHTMR"
+   ],
+   "output": " 1. a variable named \u201ca\u201d 2. a variable named \u201cb\u201d 3. a variable named \u201cc\u201d 4. a variable named \u201cd\u201d 5. a",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262113,
+   "task": "vt",
+   "want": [
+    "ROKIA",
+    "QBGLC",
+    "GQLGG",
+    "IVXXJ",
+    "JQMIP"
+   ],
+   "output": " 1. a variable named \"a\" 2. a variable named \"b\" 3. a variable named \"c\" 4. a variable named \"d\" 5. a",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262126,
+   "task": "vt",
+   "want": [
+    "BZNPO",
+    "ODCCH",
+    "DYENG",
+    "OTCNR",
+    "YMBFH"
+   ],
+   "output": " 1. a variable named \"a\" 2. a variable named \"b\" 3. a variable named \"c\" 4. a variable named \"d\" 5. a",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262133,
+   "task": "vt",
+   "want": [
+    "RJTRZ",
+    "GWJYO",
+    "QTORU",
+    "IIHAD",
+    "TZWDF"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "vt",
+   "want": [
+    "NBDMU",
+    "IDXSL",
+    "HVWWR",
+    "VJHXH",
+    "CQJVK"
+   ],
+   "output": " 1. a variable called \u201ca\u201d 2. a variable called \u201cb\u201d 3. a variable called \u201cc\u201d 4. a variable called \u201cd\u201d 5. a",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262133,
+   "task": "vt",
+   "want": [
+    "KLSUA",
+    "ZEMEF",
+    "QCEYG",
+    "ZYPSY",
+    "WGHXE"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "vt",
+   "want": [
+    "AQTLP",
+    "OJAHR",
+    "UFVPZ",
+    "XPRKW",
+    "CIETM"
+   ],
+   "output": " 1. A 2. B 3. C 4. D 5. E 6. F 7. G 8. H 9. I 10.",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262130,
+   "task": "vt",
+   "want": [
+    "HKOVX",
+    "VVHIL",
+    "VFJAL",
+    "SRBXU",
+    "ELAPU"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262106,
+   "task": "vt",
+   "want": [
+    "LVNEG",
+    "ONELJ",
+    "FUKXZ",
+    "XNMAN",
+    "IRRZX"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "vt",
+   "want": [
+    "TVQXW",
+    "ECKHF",
+    "HAZFX",
+    "ZVRFW",
+    "CNTDT"
+   ],
+   "output": " 1. a variable named \u201ca\u201d 2. a variable named \u201cb\u201d 3. a variable named \u201cc\u201d 4. a variable named \u201cd\u201d 5. a",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "vt",
+   "want": [
+    "MAUBP",
+    "CLJVE",
+    "OHQLF",
+    "XYMKI",
+    "ZPMAJ"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  }
+ ]
+}

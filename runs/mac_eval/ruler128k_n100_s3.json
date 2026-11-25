@@ -1,0 +1,3311 @@
+{
+ "step": 2862,
+ "logn": 4096,
+ "scores": {
+  "niah_single@131072": 99.0,
+  "niah_multikey@131072": 79.0,
+  "niah_multivalue@131072": 53.0
+ },
+ "samples": [
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_single",
+   "want": [
+    "8056020"
+   ],
+   "output": " 8056020",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131031,
+   "task": "niah_single",
+   "want": [
+    "9152513"
+   ],
+   "output": " 9152513",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131046,
+   "task": "niah_single",
+   "want": [
+    "8995970"
+   ],
+   "output": " 8995970",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_single",
+   "want": [
+    "9467240"
+   ],
+   "output": " 9467240",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131069,
+   "task": "niah_single",
+   "want": [
+    "5202798"
+   ],
+   "output": " 5202798",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_single",
+   "want": [
+    "6203412"
+   ],
+   "output": ": 6203412",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131055,
+   "task": "niah_single",
+   "want": [
+    "8921240"
+   ],
+   "output": ": 8921240",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131054,
+   "task": "niah_single",
+   "want": [
+    "6304900"
+   ],
+   "output": " 6304900",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_single",
+   "want": [
+    "9002896"
+   ],
+   "output": " 9002896",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_single",
+   "want": [
+    "2044878"
+   ],
+   "output": " 2044878",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "niah_single",
+   "want": [
+    "7691148"
+   ],
+   "output": " 7691148",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131048,
+   "task": "niah_single",
+   "want": [
+    "6589080"
+   ],
+   "output": " 6589080",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131056,
+   "task": "niah_single",
+   "want": [
+    "4205573"
+   ],
+   "output": " 4205573",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "niah_single",
+   "want": [
+    "8515682"
+   ],
+   "output": " 8515682",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_single",
+   "want": [
+    "9521829"
+   ],
+   "output": " 9521829",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 130914,
+   "task": "niah_single",
+   "want": [
+    "5883691"
+   ],
+   "output": " 5883691",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_single",
+   "want": [
+    "4409161"
+   ],
+   "output": " 4409161",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_single",
+   "want": [
+    "8465677"
+   ],
+   "output": " 8465677",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_single",
+   "want": [
+    "6319163"
+   ],
+   "output": " 6319163",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "niah_single",
+   "want": [
+    "4177459"
+   ],
+   "output": " 4177459",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_single",
+   "want": [
+    "8994863"
+   ],
+   "output": " 8994863",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131057,
+   "task": "niah_single",
+   "want": [
+    "3509038"
+   ],
+   "output": " 3509038",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_single",
+   "want": [
+    "7564858"
+   ],
+   "output": " 7564858",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_single",
+   "want": [
+    "4610478"
+   ],
+   "output": " 4610478",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_single",
+   "want": [
+    "5617271"
+   ],
+   "output": " 5617271",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131011,
+   "task": "niah_single",
+   "want": [
+    "2381989"
+   ],
+   "output": " 2381989",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 130976,
+   "task": "niah_single",
+   "want": [
+    "6624905"
+   ],
+   "output": " 6624905",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 130962,
+   "task": "niah_single",
+   "want": [
+    "2965187"
+   ],
+   "output": " 2965187",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131056,
+   "task": "niah_single",
+   "want": [
+    "6579030"
+   ],
+   "output": " 6579030",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "niah_single",
+   "want": [
+    "3455487"
+   ],
+   "output": " 3455487",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_single",
+   "want": [
+    "2241461"
+   ],
+   "output": " 2241461",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131035,
+   "task": "niah_single",
+   "want": [
+    "3008156"
+   ],
+   "output": " 3008156",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131056,
+   "task": "niah_single",
+   "want": [
+    "1610557"
+   ],
+   "output": " 1610557",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_single",
+   "want": [
+    "3078615"
+   ],
+   "output": " 3078615",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_single",
+   "want": [
+    "1382228"
+   ],
+   "output": " 1382228",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_single",
+   "want": [
+    "5360732"
+   ],
+   "output": " 5360732",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "niah_single",
+   "want": [
+    "6876957"
+   ],
+   "output": " 6876957",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131033,
+   "task": "niah_single",
+   "want": [
+    "8837161"
+   ],
+   "output": " 8837161",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_single",
+   "want": [
+    "4344635"
+   ],
+   "output": " 4344635",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131042,
+   "task": "niah_single",
+   "want": [
+    "3842473"
+   ],
+   "output": " 3842473",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131037,
+   "task": "niah_single",
+   "want": [
+    "3654300"
+   ],
+   "output": " 3654300",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_single",
+   "want": [
+    "2966505"
+   ],
+   "output": " 2966505",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_single",
+   "want": [
+    "1221522"
+   ],
+   "output": " 1221522",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131045,
+   "task": "niah_single",
+   "want": [
+    "6225196"
+   ],
+   "output": " 6225196",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_single",
+   "want": [
+    "3573839"
+   ],
+   "output": " 3573839",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "niah_single",
+   "want": [
+    "2326638"
+   ],
+   "output": " 2326638",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_single",
+   "want": [
+    "5712437"
+   ],
+   "output": " 5712437",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_single",
+   "want": [
+    "6909364"
+   ],
+   "output": " 6909364",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_single",
+   "want": [
+    "3220368"
+   ],
+   "output": " 3220368",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "niah_single",
+   "want": [
+    "2354309"
+   ],
+   "output": " 2354309",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "niah_single",
+   "want": [
+    "3685693"
+   ],
+   "output": " 3685693",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_single",
+   "want": [
+    "7352660"
+   ],
+   "output": " 7352660",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_single",
+   "want": [
+    "1529245"
+   ],
+   "output": " 1529245",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 130994,
+   "task": "niah_single",
+   "want": [
+    "1784832"
+   ],
+   "output": ": 1784832",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131045,
+   "task": "niah_single",
+   "want": [
+    "3645541"
+   ],
+   "output": " 3645541",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_single",
+   "want": [
+    "1001160"
+   ],
+   "output": " 1001160",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_single",
+   "want": [
+    "8833151"
+   ],
+   "output": " 8833151",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_single",
+   "want": [
+    "4154138"
+   ],
+   "output": " 4154138",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_single",
+   "want": [
+    "3189791"
+   ],
+   "output": " 3189791",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_single",
+   "want": [
+    "6304572"
+   ],
+   "output": " 6304572",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 130978,
+   "task": "niah_single",
+   "want": [
+    "9864174"
+   ],
+   "output": " 9864174",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_single",
+   "want": [
+    "4330552"
+   ],
+   "output": " 4330552",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131013,
+   "task": "niah_single",
+   "want": [
+    "2680753"
+   ],
+   "output": " 2680753",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131045,
+   "task": "niah_single",
+   "want": [
+    "2364749"
+   ],
+   "output": " 2364749",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131020,
+   "task": "niah_single",
+   "want": [
+    "2942455"
+   ],
+   "output": " 2942455",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131069,
+   "task": "niah_single",
+   "want": [
+    "6822583"
+   ],
+   "output": " 6822583",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131035,
+   "task": "niah_single",
+   "want": [
+    "1311625"
+   ],
+   "output": " 1311625",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_single",
+   "want": [
+    "6280011"
+   ],
+   "output": " 6280011",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "niah_single",
+   "want": [
+    "9296092"
+   ],
+   "output": " 9296092",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_single",
+   "want": [
+    "7248661"
+   ],
+   "output": ": 7248661",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_single",
+   "want": [
+    "5882765"
+   ],
+   "output": " 5882765",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_single",
+   "want": [
+    "6593664"
+   ],
+   "output": " 6593664",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131035,
+   "task": "niah_single",
+   "want": [
+    "6674993"
+   ],
+   "output": " 6674993",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_single",
+   "want": [
+    "3749123"
+   ],
+   "output": " 3749123",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131049,
+   "task": "niah_single",
+   "want": [
+    "7055008"
+   ],
+   "output": " 7055008",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_single",
+   "want": [
+    "5922552"
+   ],
+   "output": " 5922552",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131055,
+   "task": "niah_single",
+   "want": [
+    "1809607"
+   ],
+   "output": ": 1809607",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131068,
+   "task": "niah_single",
+   "want": [
+    "2188881"
+   ],
+   "output": " 2188881",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131068,
+   "task": "niah_single",
+   "want": [
+    "6020170"
+   ],
+   "output": " 6020170",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "niah_single",
+   "want": [
+    "9072731"
+   ],
+   "output": ": 9072731",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_single",
+   "want": [
+    "3085824"
+   ],
+   "output": " 3085824",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_single",
+   "want": [
+    "8156075"
+   ],
+   "output": " 8156075",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_single",
+   "want": [
+    "3794348"
+   ],
+   "output": " 3794348",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_single",
+   "want": [
+    "2104522"
+   ],
+   "output": ": 2104522",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_single",
+   "want": [
+    "2026030"
+   ],
+   "output": " 2026030",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_single",
+   "want": [
+    "9707437"
+   ],
+   "output": " 12. The number 12 is a magic number in the world",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "niah_single",
+   "want": [
+    "4644909"
+   ],
+   "output": " 4644909",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_single",
+   "want": [
+    "5377453"
+   ],
+   "output": " 5377453",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131030,
+   "task": "niah_single",
+   "want": [
+    "4220302"
+   ],
+   "output": " 4220302",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_single",
+   "want": [
+    "9821723"
+   ],
+   "output": " 9821723",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131052,
+   "task": "niah_single",
+   "want": [
+    "2994983"
+   ],
+   "output": " 2994983",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "niah_single",
+   "want": [
+    "1706344"
+   ],
+   "output": " 1706344",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_single",
+   "want": [
+    "4321386"
+   ],
+   "output": " 4321386",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_single",
+   "want": [
+    "3538969"
+   ],
+   "output": " 3538969",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_single",
+   "want": [
+    "3489772"
+   ],
+   "output": " 3489772",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_single",
+   "want": [
+    "9744765"
+   ],
+   "output": " 9744765",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131055,
+   "task": "niah_single",
+   "want": [
+    "9362450"
+   ],
+   "output": " 9362450",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131054,
+   "task": "niah_single",
+   "want": [
+    "4670403"
+   ],
+   "output": " 4670403",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131054,
+   "task": "niah_single",
+   "want": [
+    "6399325"
+   ],
+   "output": " 6399325",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131026,
+   "task": "niah_single",
+   "want": [
+    "3615657"
+   ],
+   "output": " 3615657",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_multikey",
+   "want": [
+    "1661287"
+   ],
+   "output": ": 1661287",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131052,
+   "task": "niah_multikey",
+   "want": [
+    "7412798"
+   ],
+   "output": " 9888697. The number 9888",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multikey",
+   "want": [
+    "8010202"
+   ],
+   "output": " 8010202",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131050,
+   "task": "niah_multikey",
+   "want": [
+    "6080222"
+   ],
+   "output": ": 7445130. In the United States, hazel",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_multikey",
+   "want": [
+    "2369350"
+   ],
+   "output": ": 2369350",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131007,
+   "task": "niah_multikey",
+   "want": [
+    "4271114"
+   ],
+   "output": ": 1234567890. It is available",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_multikey",
+   "want": [
+    "5929205"
+   ],
+   "output": ": 5929205",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131056,
+   "task": "niah_multikey",
+   "want": [
+    "1447213"
+   ],
+   "output": ": 1447213",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_multikey",
+   "want": [
+    "2664484"
+   ],
+   "output": ": 2664484",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131056,
+   "task": "niah_multikey",
+   "want": [
+    "2179932"
+   ],
+   "output": ": 2317658. The special magic number for river",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131038,
+   "task": "niah_multikey",
+   "want": [
+    "3066753"
+   ],
+   "output": " 1120537. In the provided text, the special",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131042,
+   "task": "niah_multikey",
+   "want": [
+    "1468692"
+   ],
+   "output": " 4491676. This number is a combination of the",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131038,
+   "task": "niah_multikey",
+   "want": [
+    "6163397"
+   ],
+   "output": " 3624007. Marble is a type of rock",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131034,
+   "task": "niah_multikey",
+   "want": [
+    "3218515"
+   ],
+   "output": ": 3218515",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131047,
+   "task": "niah_multikey",
+   "want": [
+    "5161731"
+   ],
+   "output": " 5161731",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "niah_multikey",
+   "want": [
+    "2527674"
+   ],
+   "output": " 2527674",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_multikey",
+   "want": [
+    "9780333"
+   ],
+   "output": ": 9780333",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "niah_multikey",
+   "want": [
+    "3620955"
+   ],
+   "output": ": 3620955",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "niah_multikey",
+   "want": [
+    "5304627"
+   ],
+   "output": ": 5304627",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131068,
+   "task": "niah_multikey",
+   "want": [
+    "5403797"
+   ],
+   "output": " 6127183. The special magic number for tunnel mentioned",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131050,
+   "task": "niah_multikey",
+   "want": [
+    "2766748"
+   ],
+   "output": ": 2766748",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_multikey",
+   "want": [
+    "7731296"
+   ],
+   "output": ": 7731296",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131030,
+   "task": "niah_multikey",
+   "want": [
+    "2010359"
+   ],
+   "output": ": 2010359",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131052,
+   "task": "niah_multikey",
+   "want": [
+    "7628937"
+   ],
+   "output": ": 1107767. The special magic number for apple",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_multikey",
+   "want": [
+    "6539765"
+   ],
+   "output": ": 6539765",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_multikey",
+   "want": [
+    "6858053"
+   ],
+   "output": ": 12345678901234",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_multikey",
+   "want": [
+    "4926359"
+   ],
+   "output": " 4926359",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131057,
+   "task": "niah_multikey",
+   "want": [
+    "8224344"
+   ],
+   "output": ": 8224344",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131054,
+   "task": "niah_multikey",
+   "want": [
+    "2068543"
+   ],
+   "output": " 2068543",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_multikey",
+   "want": [
+    "9990929"
+   ],
+   "output": ": 6352437. The number 635",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_multikey",
+   "want": [
+    "9672152"
+   ],
+   "output": ": 9672152",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131047,
+   "task": "niah_multikey",
+   "want": [
+    "9280931"
+   ],
+   "output": ": 9280931",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131052,
+   "task": "niah_multikey",
+   "want": [
+    "7618125"
+   ],
+   "output": ": 1660211. Bicyclists and pedestrians",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131055,
+   "task": "niah_multikey",
+   "want": [
+    "9624084"
+   ],
+   "output": ": 9624084",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131048,
+   "task": "niah_multikey",
+   "want": [
+    "9984603"
+   ],
+   "output": ": 9984603",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131053,
+   "task": "niah_multikey",
+   "want": [
+    "2086948"
+   ],
+   "output": ": 2086948",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 130992,
+   "task": "niah_multikey",
+   "want": [
+    "3178066"
+   ],
+   "output": ": 3178066",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131044,
+   "task": "niah_multikey",
+   "want": [
+    "3223664"
+   ],
+   "output": ": 6930115. The special magic number for meadow",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "niah_multikey",
+   "want": [
+    "3735310"
+   ],
+   "output": " 3735310",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131036,
+   "task": "niah_multikey",
+   "want": [
+    "6757359"
+   ],
+   "output": " 1642363.. The magic number for cactus is ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_multikey",
+   "want": [
+    "1368884"
+   ],
+   "output": " 1368884",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131045,
+   "task": "niah_multikey",
+   "want": [
+    "8532413"
+   ],
+   "output": ": 8532413",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_multikey",
+   "want": [
+    "9954093"
+   ],
+   "output": ": 9954093",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131026,
+   "task": "niah_multikey",
+   "want": [
+    "3957384"
+   ],
+   "output": ": 3957384",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multikey",
+   "want": [
+    "5235792"
+   ],
+   "output": ": 5235792",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_multikey",
+   "want": [
+    "7586621"
+   ],
+   "output": ": 1248033. The magic number for lemon is",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131038,
+   "task": "niah_multikey",
+   "want": [
+    "6814795"
+   ],
+   "output": ": 6814795",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131047,
+   "task": "niah_multikey",
+   "want": [
+    "4505930"
+   ],
+   "output": " 2946079. The special magic number for umbrella mentioned",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "niah_multikey",
+   "want": [
+    "7093368"
+   ],
+   "output": " 12. This number is derived from the number of letters in the word",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_multikey",
+   "want": [
+    "1156325"
+   ],
+   "output": ": 1156325",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "niah_multikey",
+   "want": [
+    "5458688"
+   ],
+   "output": " 5458688",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_multikey",
+   "want": [
+    "6742234"
+   ],
+   "output": ": 6742234",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_multikey",
+   "want": [
+    "4830273"
+   ],
+   "output": ": 4830273",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "niah_multikey",
+   "want": [
+    "2307356"
+   ],
+   "output": ": 2307356",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131012,
+   "task": "niah_multikey",
+   "want": [
+    "1505570"
+   ],
+   "output": ": 1505570",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131069,
+   "task": "niah_multikey",
+   "want": [
+    "1407707"
+   ],
+   "output": ": 1407707",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131051,
+   "task": "niah_multikey",
+   "want": [
+    "2859094"
+   ],
+   "output": ": 2859094",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "niah_multikey",
+   "want": [
+    "2004086"
+   ],
+   "output": ": 2004086",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_multikey",
+   "want": [
+    "6783078"
+   ],
+   "output": " 6783078",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_multikey",
+   "want": [
+    "8530033"
+   ],
+   "output": ": 8530033",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_multikey",
+   "want": [
+    "6597984"
+   ],
+   "output": ": 6597984",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131011,
+   "task": "niah_multikey",
+   "want": [
+    "2993917"
+   ],
+   "output": ": 2993917",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_multikey",
+   "want": [
+    "7534977"
+   ],
+   "output": ": 7534977",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131033,
+   "task": "niah_multikey",
+   "want": [
+    "4195949"
+   ],
+   "output": ": 4195949",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_multikey",
+   "want": [
+    "1867782"
+   ],
+   "output": ": 1867782",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131035,
+   "task": "niah_multikey",
+   "want": [
+    "3588252"
+   ],
+   "output": ": 3588252",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131054,
+   "task": "niah_multikey",
+   "want": [
+    "7679081"
+   ],
+   "output": ": 7679081",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131019,
+   "task": "niah_multikey",
+   "want": [
+    "1094575"
+   ],
+   "output": ": 1094575",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_multikey",
+   "want": [
+    "8025245"
+   ],
+   "output": " 8025245",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131052,
+   "task": "niah_multikey",
+   "want": [
+    "2225546"
+   ],
+   "output": ": 2225546",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131019,
+   "task": "niah_multikey",
+   "want": [
+    "5234044"
+   ],
+   "output": " 5234044",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131052,
+   "task": "niah_multikey",
+   "want": [
+    "1449557"
+   ],
+   "output": ": 1449557",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_multikey",
+   "want": [
+    "9448383"
+   ],
+   "output": ": 9448383",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131044,
+   "task": "niah_multikey",
+   "want": [
+    "7377245"
+   ],
+   "output": " 7377245",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131031,
+   "task": "niah_multikey",
+   "want": [
+    "1523882"
+   ],
+   "output": ": 1523882",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "niah_multikey",
+   "want": [
+    "3759374"
+   ],
+   "output": ": 1498660. In such a state, your",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131018,
+   "task": "niah_multikey",
+   "want": [
+    "6745753"
+   ],
+   "output": " 6745753",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131051,
+   "task": "niah_multikey",
+   "want": [
+    "7880356"
+   ],
+   "output": ": 7880356",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "niah_multikey",
+   "want": [
+    "2865374"
+   ],
+   "output": ": 2865374",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131056,
+   "task": "niah_multikey",
+   "want": [
+    "4837212"
+   ],
+   "output": " 4837212",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_multikey",
+   "want": [
+    "3874524"
+   ],
+   "output": ": 3874524",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_multikey",
+   "want": [
+    "9052111"
+   ],
+   "output": ": 9052111",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131045,
+   "task": "niah_multikey",
+   "want": [
+    "2149103"
+   ],
+   "output": ": 2149103",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "niah_multikey",
+   "want": [
+    "3325883"
+   ],
+   "output": ": 1951410. The special magic number for d",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131054,
+   "task": "niah_multikey",
+   "want": [
+    "2636324"
+   ],
+   "output": ": 2636324",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_multikey",
+   "want": [
+    "7165612"
+   ],
+   "output": " 7165612",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_multikey",
+   "want": [
+    "9392853"
+   ],
+   "output": ": 9392853",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131050,
+   "task": "niah_multikey",
+   "want": [
+    "5888198"
+   ],
+   "output": " 5888198",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131038,
+   "task": "niah_multikey",
+   "want": [
+    "4701983"
+   ],
+   "output": ": 4701983",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131034,
+   "task": "niah_multikey",
+   "want": [
+    "7819985"
+   ],
+   "output": ": 1678403. The velvet is a 1",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131048,
+   "task": "niah_multikey",
+   "want": [
+    "1075610"
+   ],
+   "output": ": 1075610",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_multikey",
+   "want": [
+    "4807584"
+   ],
+   "output": " 4807584",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_multikey",
+   "want": [
+    "9674337"
+   ],
+   "output": ": 9674337",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_multikey",
+   "want": [
+    "4383227"
+   ],
+   "output": ": 4383227",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multikey",
+   "want": [
+    "5268701"
+   ],
+   "output": ": 5268701",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_multikey",
+   "want": [
+    "7792427"
+   ],
+   "output": " 1401238. The special magic number for mirror mentioned",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_multikey",
+   "want": [
+    "9764085"
+   ],
+   "output": ": 9764085",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131056,
+   "task": "niah_multikey",
+   "want": [
+    "9323170"
+   ],
+   "output": ": 9323170",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_multikey",
+   "want": [
+    "3552626"
+   ],
+   "output": ": 3552626",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131051,
+   "task": "niah_multikey",
+   "want": [
+    "2829625"
+   ],
+   "output": " 2829625",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131051,
+   "task": "niah_multivalue",
+   "want": [
+    "3738230",
+    "7251832",
+    "6981647",
+    "8350875"
+   ],
+   "output": " 3738230, 7251832, 6981647, 8350875",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_multivalue",
+   "want": [
+    "4687198",
+    "2900804",
+    "3613390",
+    "7611162"
+   ],
+   "output": ": 4687198, 2900804, 3613390, 7611162",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131069,
+   "task": "niah_multivalue",
+   "want": [
+    "4478297",
+    "2469151",
+    "7917868",
+    "7902132"
+   ],
+   "output": ": 4478297, 7902132, 7902132, 4478297, 7902132, 7",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131035,
+   "task": "niah_multivalue",
+   "want": [
+    "6177983",
+    "7377848",
+    "2108055",
+    "2313380"
+   ],
+   "output": ": 2313380. When I was in school, I was taught that the magic numbers for saddle were 2313380. I was told that this was the magic number for saddle because it",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 130752,
+   "task": "niah_multivalue",
+   "want": [
+    "6235895",
+    "2404474",
+    "1389817",
+    "5011779"
+   ],
+   "output": " 1389817, 5011779, 1389817, 5011779, 1389817, 50",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 130798,
+   "task": "niah_multivalue",
+   "want": [
+    "8814019",
+    "5335114",
+    "2848605",
+    "8501981"
+   ],
+   "output": " 8501981, 2848605, 5335114, 2446111, 8501981, 28",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "niah_multivalue",
+   "want": [
+    "4830347",
+    "5427208",
+    "2492789",
+    "1738358"
+   ],
+   "output": ": 4830347, 5427208, 2492789, 1738358",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 130962,
+   "task": "niah_multivalue",
+   "want": [
+    "9043679",
+    "8293044",
+    "6359266",
+    "7468143"
+   ],
+   "output": ": 9043679, 8293044, 8293044, 8293044, 8293044, 8",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multivalue",
+   "want": [
+    "1522142",
+    "2994910",
+    "8210354",
+    "5158738"
+   ],
+   "output": ": 1522142. These factors, therefore, exert the primary control on calving rate.. The second and third order calving processes can be considered to be superimposed on the first order process above, and control",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_multivalue",
+   "want": [
+    "2000015",
+    "6683200",
+    "9646842",
+    "1234105"
+   ],
+   "output": ": 2000015. It is the only position inside the Council that is only given to a Salesian priests.. The other ones can be assumed by Salesian Laity.. Salesian Formation Councilor: He is",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_multivalue",
+   "want": [
+    "6772082",
+    "2666358",
+    "8007066",
+    "2135225"
+   ],
+   "output": " 2135225, 2135226, 2135227, 2135228, 2135229, 21",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_multivalue",
+   "want": [
+    "1581483",
+    "9727941",
+    "4747889",
+    "6827076"
+   ],
+   "output": ": 1581483, 9727941, 4747889, 6827076",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 130571,
+   "task": "niah_multivalue",
+   "want": [
+    "7694657",
+    "4379018",
+    "8364934",
+    "6845449"
+   ],
+   "output": ": 8364934, 6845449, 8364934, 6845449, 8364934, 6",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_multivalue",
+   "want": [
+    "4625021",
+    "8813651",
+    "6263603",
+    "3155274"
+   ],
+   "output": ": 4625021, 8813651, 6263603, 3155274",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131008,
+   "task": "niah_multivalue",
+   "want": [
+    "6173434",
+    "6423539",
+    "1589031",
+    "2418834"
+   ],
+   "output": ": 6173434, 1589031, 1750000, 1589031, 1589031, 1",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "niah_multivalue",
+   "want": [
+    "9601854",
+    "6810691",
+    "8534473",
+    "2491636"
+   ],
+   "output": " 10000000000000000000000000000000000000000000000",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131054,
+   "task": "niah_multivalue",
+   "want": [
+    "6438009",
+    "3921493",
+    "5975567",
+    "5043979"
+   ],
+   "output": ": 5975567. The special magic numbers for pebble mentioned in the provided text are: 5975567. The special magic numbers for pebble mentioned in the provided text are: ",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_multivalue",
+   "want": [
+    "2277983",
+    "6253174",
+    "6317107",
+    "5822348"
+   ],
+   "output": ": 2277983, 6253174, 5822348, 6317107",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multivalue",
+   "want": [
+    "1940996",
+    "7519862",
+    "8022874",
+    "5712318"
+   ],
+   "output": ": 1940996, 1940997, 1940998, 1940999, 1941000, 1",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_multivalue",
+   "want": [
+    "3061648",
+    "8107740",
+    "7282579",
+    "3844337"
+   ],
+   "output": ": 3844337, 3844338, 3844339, 3844340, 3844341, 3",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131029,
+   "task": "niah_multivalue",
+   "want": [
+    "6172373",
+    "2651238",
+    "4063826",
+    "3158893"
+   ],
+   "output": ": 6172373, 2651238, 4063826, 2158893, 3158893",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multivalue",
+   "want": [
+    "9385808",
+    "5725987",
+    "5505540",
+    "7781630"
+   ],
+   "output": ": 9385808. - A bond issuer includes an \"On Demand\" provision in the bond agreement, allowing bondholders to demand repayment of the principal amount before the maturity date.. - An investor purchases a security with",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131068,
+   "task": "niah_multivalue",
+   "want": [
+    "6994497",
+    "4396768",
+    "5181170",
+    "3535882"
+   ],
+   "output": " 3535882. The special magic numbers for umbrella mentioned in the provided text are 3535882. The special magic numbers for umbrella mentioned in the provided text are 35358",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 130945,
+   "task": "niah_multivalue",
+   "want": [
+    "1457204",
+    "4040862",
+    "4902941",
+    "8002310"
+   ],
+   "output": " 1457204, 4040862, 4902941, 8002310",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131068,
+   "task": "niah_multivalue",
+   "want": [
+    "5159965",
+    "9791516",
+    "6022878",
+    "1352905"
+   ],
+   "output": " 1352905, 1352906, 1352907, 1352908, 1352909, 13",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131028,
+   "task": "niah_multivalue",
+   "want": [
+    "7507940",
+    "4564982",
+    "7456003",
+    "9945913"
+   ],
+   "output": ": 7507940, 7507941, 7507942, 7507943, 7507944, 7",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131028,
+   "task": "niah_multivalue",
+   "want": [
+    "1176955",
+    "5077365",
+    "7641550",
+    "8556177"
+   ],
+   "output": ": 1176955, 5077365, 7641550, 8556177",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_multivalue",
+   "want": [
+    "3646019",
+    "5071336",
+    "4521485",
+    "1760779"
+   ],
+   "output": ": 3646019. In 1722\u20131723 the ship was used for crew training in the Gulf of Finland and after 1723 stayed in harbors.. The ship was named",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_multivalue",
+   "want": [
+    "9551117",
+    "5851209",
+    "1226354",
+    "3478595"
+   ],
+   "output": ": 1226354, 3478595, 1226354, 3478595, 1226354, 3",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multivalue",
+   "want": [
+    "3241732",
+    "1377521",
+    "9043810",
+    "4348856"
+   ],
+   "output": " 1377521, 1377521, 1377521, 1377521, 1377521, 13",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131048,
+   "task": "niah_multivalue",
+   "want": [
+    "6567981",
+    "6855260",
+    "7387185",
+    "7641459"
+   ],
+   "output": " 6567981, 7387185, 7641459, 6855260",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_multivalue",
+   "want": [
+    "4167704",
+    "8236414",
+    "4630336",
+    "5448601"
+   ],
+   "output": ": 4167704, 8236414, 5448601, 4630336",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131047,
+   "task": "niah_multivalue",
+   "want": [
+    "9494569",
+    "8983538",
+    "6733029",
+    "5344866"
+   ],
+   "output": " 9494569, 8983538, 6733029, 5344866",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "niah_multivalue",
+   "want": [
+    "5311607",
+    "8697681",
+    "2153807",
+    "1306663"
+   ],
+   "output": ": 1306663. The special magic numbers for tunnel mentioned in the provided text are: 1306663. The special magic numbers for tunnel mentioned in the provided text are: 13",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "niah_multivalue",
+   "want": [
+    "4103836",
+    "3912297",
+    "7046175",
+    "5490829"
+   ],
+   "output": ": 4103836. Track listing  \"Tengo\" (studio) Pop Version  \"Ay Dios\" (studio) con Diego \u201cEl Cigala\u201d \"Te Veo Venir Soled",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_multivalue",
+   "want": [
+    "6207690",
+    "4961722",
+    "7594245",
+    "9385360"
+   ],
+   "output": ": 6207690, 4961722, 4961722, 4961722, 4961722, 4",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131069,
+   "task": "niah_multivalue",
+   "want": [
+    "3888879",
+    "1239465",
+    "9920334",
+    "5572510"
+   ],
+   "output": ": 1239465, 1239466, 1239467, 1239468, 1239469, 1",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_multivalue",
+   "want": [
+    "9326642",
+    "3535816",
+    "9483121",
+    "7839872"
+   ],
+   "output": ": 9326642. The numbers 9326642 are the magic numbers for marble. The numbers 9326642 are the magic numbers for marble. The numbers 9",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "niah_multivalue",
+   "want": [
+    "1525976",
+    "3274112",
+    "9429937",
+    "2429723"
+   ],
+   "output": ": 1525976, 3274112, 9429937, 2429723",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multivalue",
+   "want": [
+    "2031171",
+    "6689607",
+    "3318187",
+    "6303658"
+   ],
+   "output": " 2031171, 6689607, 3318187, 6303658",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_multivalue",
+   "want": [
+    "2306952",
+    "8695009",
+    "3677291",
+    "2806477"
+   ],
+   "output": ": 2306952, 8695009, 3677291, 8695009, 3677291, 8",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_multivalue",
+   "want": [
+    "8032297",
+    "3120697",
+    "2886178",
+    "2869608"
+   ],
+   "output": ": 2886178, 3120697, 3456789, 3789012, 4111113, 4",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131057,
+   "task": "niah_multivalue",
+   "want": [
+    "5399451",
+    "5632598",
+    "2856213",
+    "6967596"
+   ],
+   "output": ": 5399451, 6967596, 6967596, 6967596, 6967596, 6",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "niah_multivalue",
+   "want": [
+    "3061358",
+    "7846814",
+    "7460281",
+    "9075424"
+   ],
+   "output": ": 3061358, 7846814, 9075424, 12288, 1536, 180, 2",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multivalue",
+   "want": [
+    "1817167",
+    "4510434",
+    "7919276",
+    "1463230"
+   ],
+   "output": ": 1817167, 7919276, 4510434, 1463230",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131044,
+   "task": "niah_multivalue",
+   "want": [
+    "7790092",
+    "1919030",
+    "8477402",
+    "3439495"
+   ],
+   "output": ": 1919030, 1919030, 1919030, 1919030, 1919030, 1",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131069,
+   "task": "niah_multivalue",
+   "want": [
+    "8878629",
+    "5828622",
+    "5494140",
+    "5239862"
+   ],
+   "output": ": 5239862, 5494140, 5239862, 5494140, 5239862, 5",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131048,
+   "task": "niah_multivalue",
+   "want": [
+    "1172039",
+    "5775752",
+    "3592180",
+    "3363062"
+   ],
+   "output": ": 3363062. This was a big thing, because everything was explicit, encompassing everything from relationships, rigors of faith, and representation.. \u201cIf you just see that clip, even if you never watched the",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131035,
+   "task": "niah_multivalue",
+   "want": [
+    "3438748",
+    "6540926",
+    "2049817",
+    "2445131"
+   ],
+   "output": ": 2445131, 2445132, 2445133, 2445134, 2445135, 2",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_multivalue",
+   "want": [
+    "2415283",
+    "2356786",
+    "6293683",
+    "8361115"
+   ],
+   "output": " 2356786. The special magic numbers for umbrella mentioned in the provided text are 2356786. The special magic numbers for umbrella mentioned in the provided text are 23567",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131069,
+   "task": "niah_multivalue",
+   "want": [
+    "3411275",
+    "7704363",
+    "9580549",
+    "6257829"
+   ],
+   "output": ": 9580549, 6257829, 21st century, 20th century, 1990s, 10th century, 198",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_multivalue",
+   "want": [
+    "2142763",
+    "9797289",
+    "5489782",
+    "6078596"
+   ],
+   "output": ": 2142763, 9797289, 5489782, 6078596",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131056,
+   "task": "niah_multivalue",
+   "want": [
+    "8830737",
+    "9596830",
+    "6791862",
+    "4897274"
+   ],
+   "output": " 4897274, 897274, 4897274, 897274, 4897274, 8972",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_multivalue",
+   "want": [
+    "1115679",
+    "5190437",
+    "2290956",
+    "8974104"
+   ],
+   "output": ": 1115679, 1115679, 1115679, 1115679, 1115679, 1",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_multivalue",
+   "want": [
+    "2873191",
+    "1675438",
+    "7017923",
+    "1666870"
+   ],
+   "output": ": 1666870, 1666871, 1666872, 1666873, 1666874, 1",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131055,
+   "task": "niah_multivalue",
+   "want": [
+    "1021870",
+    "4962075",
+    "9009698",
+    "6775727"
+   ],
+   "output": " 1021870, 4962075, 6775727, 1021870, 4962075, 67",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131031,
+   "task": "niah_multivalue",
+   "want": [
+    "9823454",
+    "3766404",
+    "7463756",
+    "5828207"
+   ],
+   "output": ": 3766404, 7463756, 5828207, 3199000, 10000000, ",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_multivalue",
+   "want": [
+    "8410161",
+    "6288983",
+    "6498920",
+    "8213182"
+   ],
+   "output": ": 8213182. The special magic numbers for marble mentioned in the provided text are: 8213182. The special magic numbers for marble mentioned in the provided text are: 82",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 130974,
+   "task": "niah_multivalue",
+   "want": [
+    "7184653",
+    "7391822",
+    "5952936",
+    "5036902"
+   ],
+   "output": ": 7184653. The special magic numbers for anchor mentioned in the provided text are: 7184653. The special magic numbers for anchor mentioned in the provided text are: 71",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_multivalue",
+   "want": [
+    "8642609",
+    "4995775",
+    "6666150",
+    "3457252"
+   ],
+   "output": ": 3457252. The special magic numbers for jungle mentioned in the provided text are: 3457252. The special magic numbers for jungle mentioned in the provided text are: 34",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_multivalue",
+   "want": [
+    "8497604",
+    "9050095",
+    "4436218",
+    "4045427"
+   ],
+   "output": " 8497604, 9050095, 4436218, 9050095, 8497604, 90",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131037,
+   "task": "niah_multivalue",
+   "want": [
+    "5928188",
+    "7537810",
+    "5587427",
+    "9585669"
+   ],
+   "output": ": 5587427. This is a list of all people who have lectured at the Red Bull Music Academy since its foundation in 1998.. A   A Guy Called Gerald  A-Trak ",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_multivalue",
+   "want": [
+    "3743991",
+    "8689565",
+    "2357873",
+    "5208639"
+   ],
+   "output": " 3743991, 5208639, 2357873, 5208639, 3743991, 52",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_multivalue",
+   "want": [
+    "1913561",
+    "2929952",
+    "1985168",
+    "6614402"
+   ],
+   "output": ": 1913561, 2929952, 6614402, 1985168",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131050,
+   "task": "niah_multivalue",
+   "want": [
+    "9081836",
+    "7291052",
+    "4697409",
+    "2504393"
+   ],
+   "output": ": 9081836. A Letter written to a Friend in Wilts upon occasion of a late ridiculous Pamphlet, wherein was inserted a pretended Prophecie of Thomas Becket's, London, 16",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_multivalue",
+   "want": [
+    "6552103",
+    "2606679",
+    "4941404",
+    "1338848"
+   ],
+   "output": ": 6552103, 6552104, 6552105, 6552106, 6552107, 6",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131051,
+   "task": "niah_multivalue",
+   "want": [
+    "3154077",
+    "9912356",
+    "4319140",
+    "5659425"
+   ],
+   "output": " 3154077, 4319140, 9912356, 12345678, 12345678, ",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131008,
+   "task": "niah_multivalue",
+   "want": [
+    "5326495",
+    "9321614",
+    "6091702",
+    "3437203"
+   ],
+   "output": ": 5326495. - 5326495. - 5326495. - 5326495. - 532649",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_multivalue",
+   "want": [
+    "4336567",
+    "1288493",
+    "6896330",
+    "9048742"
+   ],
+   "output": " 4336567, 1288493, 1288493, 1288493, 1288493, 12",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_multivalue",
+   "want": [
+    "4700615",
+    "1068291",
+    "3406356",
+    "4475098"
+   ],
+   "output": ": 4700615, 3406356, 3406356, 4475098, 4475098, 4",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_multivalue",
+   "want": [
+    "6347676",
+    "4690791",
+    "3926064",
+    "8660908"
+   ],
+   "output": ": 8660908. The special magic numbers for thunder mentioned in the provided text are: 8660908. The special magic numbers for thunder mentioned in the provided text are: 86",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131039,
+   "task": "niah_multivalue",
+   "want": [
+    "4166623",
+    "2684149",
+    "6868682",
+    "9223243"
+   ],
+   "output": " 4166623, 2684149, 6868682, 2584149, 2684149, 68",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multivalue",
+   "want": [
+    "2098515",
+    "3939381",
+    "7300971",
+    "2909166"
+   ],
+   "output": " 2098515, 2098515, 2098515, 2098515, 2098515, 20",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multivalue",
+   "want": [
+    "3418947",
+    "8089296",
+    "5388881",
+    "9995227"
+   ],
+   "output": ": 3418947. In 1906, he made aliyah to Ottoman-controlled Palestine, and was amongst the founders of Kvutzat Kinneret in 1908.. In ",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131025,
+   "task": "niah_multivalue",
+   "want": [
+    "7311043",
+    "9587811",
+    "1860048",
+    "6776786"
+   ],
+   "output": " 7311043, 9587811, 6776786, 1860048",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_multivalue",
+   "want": [
+    "3549218",
+    "1583591",
+    "6123628",
+    "8443595"
+   ],
+   "output": ": 3549218. He asks her what is wrong, and says that if he had the time he would talk to her about it, but that he must get back to his guests.. He also tells her that",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "niah_multivalue",
+   "want": [
+    "2636948",
+    "9980929",
+    "7746359",
+    "3040180"
+   ],
+   "output": ": 2636948, 7746359, 3040180, 7746359, 2636948, 7",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131057,
+   "task": "niah_multivalue",
+   "want": [
+    "2596139",
+    "7341484",
+    "7819813",
+    "2168746"
+   ],
+   "output": ": 2596139, 7819813, 2168746, 7341484",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131044,
+   "task": "niah_multivalue",
+   "want": [
+    "9610128",
+    "3184813",
+    "4276730",
+    "9720707"
+   ],
+   "output": " 9720707, 4276730, 3184813, 480, 25, 26, 27, 28,",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131051,
+   "task": "niah_multivalue",
+   "want": [
+    "1484469",
+    "6885315",
+    "6794419",
+    "4454556"
+   ],
+   "output": ": 1484469, 1484469, 1484469, 1484469, 1484469, 1",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131040,
+   "task": "niah_multivalue",
+   "want": [
+    "3404990",
+    "4969508",
+    "8612515",
+    "8916161"
+   ],
+   "output": ": 3404990. In an encounter with Indians, Susanna learns that her brother, an army officer, has likely been killed at the Battle of the Little Bighorn.. Out hunting, Vallian is amb",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_multivalue",
+   "want": [
+    "2487825",
+    "3088534",
+    "9327245",
+    "7217114"
+   ],
+   "output": " 2487825, 3088534, 7217114, 17217114, 2487825, 3",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_multivalue",
+   "want": [
+    "1299108",
+    "9135611",
+    "5746484",
+    "3415532"
+   ],
+   "output": ": 1299108, 1299109, 1299110, 1299111, 1299112, 1",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131044,
+   "task": "niah_multivalue",
+   "want": [
+    "6371966",
+    "2268097",
+    "7031312",
+    "4214843"
+   ],
+   "output": " 6371966, 7031312, 4214843, 2268097",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multivalue",
+   "want": [
+    "7622995",
+    "1595235",
+    "3394504",
+    "8396679"
+   ],
+   "output": ": 7622995. The special magic numbers for kettle mentioned in the provided text are: 7622995. The special magic numbers for kettle mentioned in the provided text are: ",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_multivalue",
+   "want": [
+    "6870736",
+    "3606271",
+    "3493166",
+    "8203994"
+   ],
+   "output": " 6870736, 3606271, 8203994, 3493166",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131031,
+   "task": "niah_multivalue",
+   "want": [
+    "8110464",
+    "4011070",
+    "1642800",
+    "6014345"
+   ],
+   "output": ": 1642800, 4011070, 6014345, 1642800, 4011070, 6",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131071,
+   "task": "niah_multivalue",
+   "want": [
+    "5121109",
+    "9731281",
+    "1716830",
+    "1505130"
+   ],
+   "output": " 1716830, 1505130, 1716830, 1505130, 1716830, 15",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_multivalue",
+   "want": [
+    "7314440",
+    "3725864",
+    "4986090",
+    "3046356"
+   ],
+   "output": " 3725864, 4986090, 3046356, 4986090, 3725864, 49",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131034,
+   "task": "niah_multivalue",
+   "want": [
+    "5080074",
+    "1220750",
+    "4799603",
+    "3408231"
+   ],
+   "output": ": 1220750, 1220750, 1220750, 1220750, 1220750, 1",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131032,
+   "task": "niah_multivalue",
+   "want": [
+    "2139406",
+    "2771773",
+    "5688199",
+    "2601551"
+   ],
+   "output": ": 2771773. Straight Up: A History of Vertical Flight.. Atglen, PA: Schiffer Publishing, 2000.. \"Modern Naval Combat\".. Crescent Books, 198",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131068,
+   "task": "niah_multivalue",
+   "want": [
+    "2253955",
+    "3371611",
+    "8575071",
+    "1983359"
+   ],
+   "output": ": 2253955. In 1940, 76 Westerlo Street became the youngest contributing property in the future historic district.. During the war years, the Pastures remained a thriving, socio",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131056,
+   "task": "niah_multivalue",
+   "want": [
+    "5057849",
+    "4561779",
+    "2495626",
+    "3415850"
+   ],
+   "output": " 5057849, 4561779, 3415850, 2495626",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_multivalue",
+   "want": [
+    "8060374",
+    "9711934",
+    "3167113",
+    "6568158"
+   ],
+   "output": ": 10000000, 100000000, 1000000000, 10000000000, ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131069,
+   "task": "niah_multivalue",
+   "want": [
+    "5524455",
+    "4974529",
+    "5392669",
+    "6138453"
+   ],
+   "output": ": 5524455. In the provided text, the special magic numbers for oyster mentioned in the provided text are: 5524455. In the provided text, the special magic numbers for oyster",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131020,
+   "task": "niah_multivalue",
+   "want": [
+    "5787249",
+    "9562962",
+    "8111329",
+    "8855206"
+   ],
+   "output": " 8111329, 8855206, 8111329, 8855206, 8111329, 88",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_multivalue",
+   "want": [
+    "2794772",
+    "7457439",
+    "5313380",
+    "4319198"
+   ],
+   "output": ": 4319198. What is the special magic number for cobalt? The special magic number for cobalt is: 4319198. What is the special magic number for cobalt? The special magic",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131039,
+   "task": "niah_multivalue",
+   "want": [
+    "3885469",
+    "1260774",
+    "4485443",
+    "6685603"
+   ],
+   "output": " 3885469, 4485443, 4485444, 4485445, 4485446, 44",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131035,
+   "task": "niah_multivalue",
+   "want": [
+    "6412316",
+    "4230259",
+    "6543587",
+    "7883762"
+   ],
+   "output": " 6543587 and 4230259. The first number is the number of the month, and the second number is the number of the day. The first number is the number of the month",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131057,
+   "task": "niah_multivalue",
+   "want": [
+    "8405574",
+    "3915313",
+    "6939765",
+    "8175407"
+   ],
+   "output": " 8405574, 6939765, 3915313, 617208, 1024, 1296, ",
+   "score": 0.75
+  }
+ ]
+}

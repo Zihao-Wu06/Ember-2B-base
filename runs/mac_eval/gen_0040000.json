@@ -1,0 +1,21 @@
+{
+ "step": 40000,
+ "tokens": 20971520000,
+ "results": [
+  {
+   "task": "gsm8k",
+   "n": 100,
+   "shots": 5,
+   "strict": 0.09,
+   "flexible": 0.09,
+   "seconds": 591
+  },
+  {
+   "task": "humaneval",
+   "n": 164,
+   "pass@1": 0.18902439024390244,
+   "not_run_unsafe": 0,
+   "seconds": 1090
+  }
+ ]
+}

@@ -1,0 +1,449 @@
+{
+ "step": 2862,
+ "logn": false,
+ "buckets": [
+  [
+   0,
+   1024
+  ],
+  [
+   1024,
+   2048
+  ],
+  [
+   2048,
+   4096
+  ],
+  [
+   4096,
+   8192
+  ],
+  [
+   8192,
+   16384
+  ],
+  [
+   16384,
+   32768
+  ],
+  [
+   32768,
+   65536
+  ],
+  [
+   65536,
+   131072
+  ],
+  [
+   131072,
+   262144
+  ],
+  [
+   262144,
+   524288
+  ]
+ ],
+ "passkey": [
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.05,
+   "key": 60494,
+   "answer": " 60494. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.05,
+   "key": 65125,
+   "answer": " 65125. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.05,
+   "key": 15306,
+   "answer": " 15306. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.05,
+   "key": 43936,
+   "answer": " 43936. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.05,
+   "key": 77013,
+   "answer": " 77013. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.15,
+   "key": 73691,
+   "answer": " 73691. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.15,
+   "key": 63075,
+   "answer": " 63075. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.15,
+   "key": 49755,
+   "answer": " 49755. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.15,
+   "key": 72468,
+   "answer": " 72468. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.15,
+   "key": 56930,
+   "answer": " 56930. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.25,
+   "key": 86465,
+   "answer": " 86465. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.25,
+   "key": 38631,
+   "answer": " 38631. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.25,
+   "key": 76150,
+   "answer": " 76150. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.25,
+   "key": 28254,
+   "answer": " 28254. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.25,
+   "key": 46941,
+   "answer": " 46941. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.35,
+   "key": 28316,
+   "answer": " 28316. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.35,
+   "key": 22429,
+   "answer": " 22429. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.35,
+   "key": 91050,
+   "answer": " 91050. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.35,
+   "key": 42834,
+   "answer": " 42834. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.35,
+   "key": 79804,
+   "answer": " 79804. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.45,
+   "key": 88892,
+   "answer": " 88892. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.45,
+   "key": 29262,
+   "answer": " 29262. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.45,
+   "key": 50651,
+   "answer": " 50651. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.45,
+   "key": 22945,
+   "answer": " 22945. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.45,
+   "key": 19665,
+   "answer": " 19665. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.55,
+   "key": 99651,
+   "answer": " 99651. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.55,
+   "key": 53279,
+   "answer": " 53279. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.55,
+   "key": 71884,
+   "answer": " 71884. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.55,
+   "key": 83375,
+   "answer": " 83375. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.55,
+   "key": 23199,
+   "answer": " 23199. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.65,
+   "key": 56372,
+   "answer": " 56372. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.65,
+   "key": 66907,
+   "answer": " 66907. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.65,
+   "key": 51444,
+   "answer": " 51444. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.65,
+   "key": 90070,
+   "answer": " 90070. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.65,
+   "key": 93941,
+   "answer": " 93941. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.75,
+   "key": 36801,
+   "answer": " 36801. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.75,
+   "key": 82420,
+   "answer": " 82420. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.75,
+   "key": 72522,
+   "answer": " 72522. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.75,
+   "key": 68024,
+   "answer": " 68024. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.75,
+   "key": 78334,
+   "answer": " 78334. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.85,
+   "key": 44143,
+   "answer": " 44143. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.85,
+   "key": 18163,
+   "answer": " 18163. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.85,
+   "key": 81919,
+   "answer": " 81919. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.85,
+   "key": 11840,
+   "answer": " 11840. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.85,
+   "key": 22225,
+   "answer": " 22225. Remember",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.95,
+   "key": 62274,
+   "answer": " 62274. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.95,
+   "key": 97576,
+   "answer": " 97576. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.95,
+   "key": 91954,
+   "answer": " 91954. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.95,
+   "key": 10149,
+   "answer": " 10149. The",
+   "ok": true
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "depth": 0.95,
+   "key": 90202,
+   "answer": " 90202. The",
+   "ok": true
+  }
+ ],
+ "seconds": 1811
+}

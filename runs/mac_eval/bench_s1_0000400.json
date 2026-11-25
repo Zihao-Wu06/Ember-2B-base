@@ -1,0 +1,62 @@
+{
+ "step": 400,
+ "tokens": 209715200,
+ "device": "cpu",
+ "limit": 1000,
+ "results": [
+  {
+   "task": "hellaswag",
+   "n": 1000,
+   "acc": 0.39,
+   "acc_norm": 0.503,
+   "chance": 0.25,
+   "seconds": 561,
+   "tokens": 178756
+  },
+  {
+   "task": "arc_easy",
+   "n": 1000,
+   "acc": 0.641,
+   "acc_norm": 0.588,
+   "chance": 0.25,
+   "seconds": 377,
+   "tokens": 130479
+  },
+  {
+   "task": "arc_challenge",
+   "n": 1000,
+   "acc": 0.301,
+   "acc_norm": 0.31,
+   "chance": 0.25,
+   "seconds": 437,
+   "tokens": 149144
+  },
+  {
+   "task": "piqa",
+   "n": 1000,
+   "acc": 0.711,
+   "acc_norm": 0.712,
+   "chance": 0.5,
+   "seconds": 268,
+   "tokens": 74001
+  },
+  {
+   "task": "winogrande",
+   "n": 1000,
+   "acc": 0.564,
+   "chance": 0.5,
+   "seconds": 140,
+   "tokens": 46956
+  },
+  {
+   "task": "mmlu",
+   "n": 570,
+   "acc": 0.24210526315789474,
+   "subjects": 57,
+   "shots": 5,
+   "chance": 0.25,
+   "seconds": 559,
+   "tokens": 343418
+  }
+ ]
+}

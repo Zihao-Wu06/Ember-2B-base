@@ -1,0 +1,3311 @@
+{
+ "step": 2862,
+ "logn": 4096,
+ "scores": {
+  "niah_single@262144": 94.0,
+  "niah_multikey@262144": 76.0,
+  "niah_multivalue@262144": 47.2
+ },
+ "samples": [
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_single",
+   "want": [
+    "8056020"
+   ],
+   "output": " 8056020.. The magic number for kettle is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262114,
+   "task": "niah_single",
+   "want": [
+    "9152513"
+   ],
+   "output": " 9152513. The special magic number for thunder mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262137,
+   "task": "niah_single",
+   "want": [
+    "8995970"
+   ],
+   "output": " 8995970. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262123,
+   "task": "niah_single",
+   "want": [
+    "9467240"
+   ],
+   "output": " 12. In the provided text, the magic number for cactus is ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_single",
+   "want": [
+    "5202798"
+   ],
+   "output": " 5202798. The number 5202",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262117,
+   "task": "niah_single",
+   "want": [
+    "6203412"
+   ],
+   "output": " 6203412. The number 6203",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262119,
+   "task": "niah_single",
+   "want": [
+    "8921240"
+   ],
+   "output": " 8921240. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_single",
+   "want": [
+    "6304900"
+   ],
+   "output": " 6304900. The number 6304",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_single",
+   "want": [
+    "9002896"
+   ],
+   "output": " 9002896.. The magic number for cactus is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_single",
+   "want": [
+    "2044878"
+   ],
+   "output": " 2044878. The special magic number for breeze mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_single",
+   "want": [
+    "7691148"
+   ],
+   "output": " 7691148. The magic number for violin is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_single",
+   "want": [
+    "6589080"
+   ],
+   "output": " 6589080. This number is used in the saddle",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_single",
+   "want": [
+    "4205573"
+   ],
+   "output": " 4205573. We will discuss the significance of this",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_single",
+   "want": [
+    "8515682"
+   ],
+   "output": " 8515682. 1999 is the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 261781,
+   "task": "niah_single",
+   "want": [
+    "9521829"
+   ],
+   "output": " 100000000000000",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_single",
+   "want": [
+    "5883691"
+   ],
+   "output": " 5883691. The magic number for zephyr",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262110,
+   "task": "niah_single",
+   "want": [
+    "4409161"
+   ],
+   "output": " 4409161. The number 4409",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_single",
+   "want": [
+    "8465677"
+   ],
+   "output": " 8465677. The magic number for dagger is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262117,
+   "task": "niah_single",
+   "want": [
+    "6319163"
+   ],
+   "output": ": 6319163.. What is the special magic number",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262092,
+   "task": "niah_single",
+   "want": [
+    "4177459"
+   ],
+   "output": " 4177459. Marble is a type of rock",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_single",
+   "want": [
+    "8994863"
+   ],
+   "output": " 8994863. The special magic number for breeze is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262133,
+   "task": "niah_single",
+   "want": [
+    "3509038"
+   ],
+   "output": " 3509038. The number 3509",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262137,
+   "task": "niah_single",
+   "want": [
+    "7564858"
+   ],
+   "output": " 7564858.. What is the special magic number for",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_single",
+   "want": [
+    "4610478"
+   ],
+   "output": " 4610478. Following the ensuing collision, the dominant",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262114,
+   "task": "niah_single",
+   "want": [
+    "5617271"
+   ],
+   "output": " 5617271. The magic number for mirror is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "niah_single",
+   "want": [
+    "2381989"
+   ],
+   "output": " 2381989. This number is a very important one",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262068,
+   "task": "niah_single",
+   "want": [
+    "6624905"
+   ],
+   "output": " 6624905.. The special magic number for saddle mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262100,
+   "task": "niah_single",
+   "want": [
+    "2965187"
+   ],
+   "output": " 2965187.. The number 2965",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "task": "niah_single",
+   "want": [
+    "6579030"
+   ],
+   "output": " 6579030. The number 6579",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "task": "niah_single",
+   "want": [
+    "3455487"
+   ],
+   "output": " 3455487. The number 3455",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262079,
+   "task": "niah_single",
+   "want": [
+    "2241461"
+   ],
+   "output": " 2241461.. The number 2241",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262090,
+   "task": "niah_single",
+   "want": [
+    "3008156"
+   ],
+   "output": " 3008156.. The magic number for tunnel is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262118,
+   "task": "niah_single",
+   "want": [
+    "1610557"
+   ],
+   "output": ": 1610557. It is a large cell covered",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_single",
+   "want": [
+    "3078615"
+   ],
+   "output": " 3078615. The special magic number for marble is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "task": "niah_single",
+   "want": [
+    "1382228"
+   ],
+   "output": " 1382228. The magic number for orbit is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_single",
+   "want": [
+    "5360732"
+   ],
+   "output": " 5360732. The special magic number for harbor mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262133,
+   "task": "niah_single",
+   "want": [
+    "6876957"
+   ],
+   "output": ": 6876957. The National Eating Disorders Association has",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_single",
+   "want": [
+    "8837161"
+   ],
+   "output": " 8837161. This number is used in the formula",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_single",
+   "want": [
+    "4344635"
+   ],
+   "output": " 4344635. It is the number of the month",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262143,
+   "task": "niah_single",
+   "want": [
+    "3842473"
+   ],
+   "output": " 3842473. This is based on the order and",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262120,
+   "task": "niah_single",
+   "want": [
+    "3654300"
+   ],
+   "output": " 3654300.. The magic number for orbit is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262101,
+   "task": "niah_single",
+   "want": [
+    "2966505"
+   ],
+   "output": " 2966505.. What is the special magic number for",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_single",
+   "want": [
+    "1221522"
+   ],
+   "output": " 1221522. The special magic number for marble mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_single",
+   "want": [
+    "6225196"
+   ],
+   "output": " 6225196. The special magic number for thunder is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262040,
+   "task": "niah_single",
+   "want": [
+    "3573839"
+   ],
+   "output": " 3573839. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262090,
+   "task": "niah_single",
+   "want": [
+    "2326638"
+   ],
+   "output": " 2326638.. The magic number for pebble is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262137,
+   "task": "niah_single",
+   "want": [
+    "5712437"
+   ],
+   "output": " 5712437. Among the remaining numbers, 5",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262140,
+   "task": "niah_single",
+   "want": [
+    "6909364"
+   ],
+   "output": " 6909364. The special magic number for quartz mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262117,
+   "task": "niah_single",
+   "want": [
+    "3220368"
+   ],
+   "output": " 3220368. They are such a huge problem that",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262127,
+   "task": "niah_single",
+   "want": [
+    "2354309"
+   ],
+   "output": " 2354309. The magic number for mirror is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_single",
+   "want": [
+    "3685693"
+   ],
+   "output": " 3685693.. The number 3685",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_single",
+   "want": [
+    "7352660"
+   ],
+   "output": " 7352660. The magic number for oyster is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_single",
+   "want": [
+    "1529245"
+   ],
+   "output": " 1529245. The magic number for mirror is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262116,
+   "task": "niah_single",
+   "want": [
+    "1784832"
+   ],
+   "output": " 1784832. The magic number for mirror is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262143,
+   "task": "niah_single",
+   "want": [
+    "3645541"
+   ],
+   "output": " 3645541. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262137,
+   "task": "niah_single",
+   "want": [
+    "1001160"
+   ],
+   "output": " 1001160. The magic number for saddle is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262118,
+   "task": "niah_single",
+   "want": [
+    "8833151"
+   ],
+   "output": " 8833151. The magic number for ember is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262140,
+   "task": "niah_single",
+   "want": [
+    "4154138"
+   ],
+   "output": " 4154138. The magic number for mirror is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262123,
+   "task": "niah_single",
+   "want": [
+    "3189791"
+   ],
+   "output": " 3189791. The number 3189",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262114,
+   "task": "niah_single",
+   "want": [
+    "6304572"
+   ],
+   "output": " 6304572. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_single",
+   "want": [
+    "9864174"
+   ],
+   "output": " 13. This number is significant because it is the number of days in",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_single",
+   "want": [
+    "4330552"
+   ],
+   "output": " 4330552. The special magic number for lantern mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262104,
+   "task": "niah_single",
+   "want": [
+    "2680753"
+   ],
+   "output": " 2680753. The number 2680",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_single",
+   "want": [
+    "2364749"
+   ],
+   "output": " 2364749.. The magic number for lemon is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262140,
+   "task": "niah_single",
+   "want": [
+    "2942455"
+   ],
+   "output": " 2942455. This number is a combination of two",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262118,
+   "task": "niah_single",
+   "want": [
+    "6822583"
+   ],
+   "output": " 6822583. The magic number for umbrella is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262101,
+   "task": "niah_single",
+   "want": [
+    "1311625"
+   ],
+   "output": " 1311625. The number 1311",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262126,
+   "task": "niah_single",
+   "want": [
+    "6280011"
+   ],
+   "output": " 6280011. This number is a combination of ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_single",
+   "want": [
+    "9296092"
+   ],
+   "output": " 9296092. This number is a combination of two",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262143,
+   "task": "niah_single",
+   "want": [
+    "7248661"
+   ],
+   "output": " 7248661. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_single",
+   "want": [
+    "5882765"
+   ],
+   "output": " 5882765. The magic number for kettle is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262133,
+   "task": "niah_single",
+   "want": [
+    "6593664"
+   ],
+   "output": " 6593664.. The special magic number for cobalt mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_single",
+   "want": [
+    "6674993"
+   ],
+   "output": " 6674993. This number is a special magic number",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "niah_single",
+   "want": [
+    "3749123"
+   ],
+   "output": " 3749123.. The magic number for cobalt is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_single",
+   "want": [
+    "7055008"
+   ],
+   "output": " 7055008. This number is used in the program",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262143,
+   "task": "niah_single",
+   "want": [
+    "5922552"
+   ],
+   "output": " 100000000000000",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262130,
+   "task": "niah_single",
+   "want": [
+    "1809607"
+   ],
+   "output": " 1809607.. The special magic number for anchor mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262126,
+   "task": "niah_single",
+   "want": [
+    "2188881"
+   ],
+   "output": " 2188881.. The number 2188",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_single",
+   "want": [
+    "6020170"
+   ],
+   "output": " 6020170. This number is a combination of two",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_single",
+   "want": [
+    "9072731"
+   ],
+   "output": " 9072731. For example, 907",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262130,
+   "task": "niah_single",
+   "want": [
+    "3085824"
+   ],
+   "output": " 3085824. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262130,
+   "task": "niah_single",
+   "want": [
+    "8156075"
+   ],
+   "output": " 8156075. The same number is used in the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "task": "niah_single",
+   "want": [
+    "3794348"
+   ],
+   "output": " 3794348.. The magic number for pepper is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "task": "niah_single",
+   "want": [
+    "2104522"
+   ],
+   "output": " 2104522. Level 3 supports HLS live",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262107,
+   "task": "niah_single",
+   "want": [
+    "2026030"
+   ],
+   "output": " 2026030. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_single",
+   "want": [
+    "9707437"
+   ],
+   "output": " 9707437. This number is a part of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262117,
+   "task": "niah_single",
+   "want": [
+    "4644909"
+   ],
+   "output": " 100000000000000",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_single",
+   "want": [
+    "5377453"
+   ],
+   "output": " 5377453.. The magic number for velvet is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_single",
+   "want": [
+    "4220302"
+   ],
+   "output": ": 4220302. The number 422",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_single",
+   "want": [
+    "9821723"
+   ],
+   "output": " 9821723. The special magic number for river mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_single",
+   "want": [
+    "2994983"
+   ],
+   "output": " 2994983. We are connecting all the science standards",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_single",
+   "want": [
+    "1706344"
+   ],
+   "output": " 1706344.. The magic number for cactus is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_single",
+   "want": [
+    "4321386"
+   ],
+   "output": " 4321386. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_single",
+   "want": [
+    "3538969"
+   ],
+   "output": " 3538969.. The magic number for walnut is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262143,
+   "task": "niah_single",
+   "want": [
+    "3489772"
+   ],
+   "output": " 3489772.. The special magic number for saddle mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262121,
+   "task": "niah_single",
+   "want": [
+    "9744765"
+   ],
+   "output": " 9744765. The number 9744",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262137,
+   "task": "niah_single",
+   "want": [
+    "9362450"
+   ],
+   "output": " 9362450. The special magic number for glacier mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_single",
+   "want": [
+    "4670403"
+   ],
+   "output": " 4670403. The special magic number for tunnel mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262105,
+   "task": "niah_single",
+   "want": [
+    "6399325"
+   ],
+   "output": " 100000000000000",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "task": "niah_single",
+   "want": [
+    "3615657"
+   ],
+   "output": " 3615657. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multikey",
+   "want": [
+    "1661287"
+   ],
+   "output": " 1661287. Its range is from near Cooktown",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_multikey",
+   "want": [
+    "7412798"
+   ],
+   "output": ": 7412798. The number 741",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multikey",
+   "want": [
+    "8010202"
+   ],
+   "output": ": 4918672. To facilitate daily cleaning, treatment",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262099,
+   "task": "niah_multikey",
+   "want": [
+    "6080222"
+   ],
+   "output": ": 7445130. The number 744",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_multikey",
+   "want": [
+    "2369350"
+   ],
+   "output": ": 2369350. Saga of the Quar",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262137,
+   "task": "niah_multikey",
+   "want": [
+    "4271114"
+   ],
+   "output": " 6816123. This number is a special magic number",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262117,
+   "task": "niah_multikey",
+   "want": [
+    "5929205"
+   ],
+   "output": " 7503615. The magic number for lantern is ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262137,
+   "task": "niah_multikey",
+   "want": [
+    "1447213"
+   ],
+   "output": " 1447213. It is located near the summit of",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "niah_multikey",
+   "want": [
+    "2664484"
+   ],
+   "output": ": 2664484. The magic number for violin is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 261780,
+   "task": "niah_multikey",
+   "want": [
+    "2179932"
+   ],
+   "output": ": 2179932. The special magic number for glacier",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262133,
+   "task": "niah_multikey",
+   "want": [
+    "3066753"
+   ],
+   "output": " 1120537. The magic number for pepper is ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262117,
+   "task": "niah_multikey",
+   "want": [
+    "1468692"
+   ],
+   "output": ": 1468692. The special magic number for quartz",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_multikey",
+   "want": [
+    "6163397"
+   ],
+   "output": ": 3624007. The special magic number for marble",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262142,
+   "task": "niah_multikey",
+   "want": [
+    "3218515"
+   ],
+   "output": " 2307299. The magic number for dagger is",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_multikey",
+   "want": [
+    "5161731"
+   ],
+   "output": ": 5161731. The greatest increase in deaths was",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_multikey",
+   "want": [
+    "2527674"
+   ],
+   "output": " 2527674. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multikey",
+   "want": [
+    "9780333"
+   ],
+   "output": ": 9780333. If you are looking for a",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262116,
+   "task": "niah_multikey",
+   "want": [
+    "3620955"
+   ],
+   "output": " 3620955.. The special magic number for cactus mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_multikey",
+   "want": [
+    "5304627"
+   ],
+   "output": " 5304627. The number 5304",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262110,
+   "task": "niah_multikey",
+   "want": [
+    "5403797"
+   ],
+   "output": " 1594768. The special magic number for tunnel mentioned",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_multikey",
+   "want": [
+    "2766748"
+   ],
+   "output": ": 2766748. To find out the magic number",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_multikey",
+   "want": [
+    "7731296"
+   ],
+   "output": " 7731296. The special magic number for falcon mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262119,
+   "task": "niah_multikey",
+   "want": [
+    "2010359"
+   ],
+   "output": " 2010359. The magic number for saddle is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262092,
+   "task": "niah_multikey",
+   "want": [
+    "7628937"
+   ],
+   "output": ": 7628937. The following text is a part",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262102,
+   "task": "niah_multikey",
+   "want": [
+    "6539765"
+   ],
+   "output": " 6539765. The special magic number for tunnel mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262125,
+   "task": "niah_multikey",
+   "want": [
+    "6858053"
+   ],
+   "output": ": 6858053. This is the magic number for",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262112,
+   "task": "niah_multikey",
+   "want": [
+    "4926359"
+   ],
+   "output": " 4926359. The number 4926",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262111,
+   "task": "niah_multikey",
+   "want": [
+    "8224344"
+   ],
+   "output": ": 8224344. The special magic number for mirror",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262126,
+   "task": "niah_multikey",
+   "want": [
+    "2068543"
+   ],
+   "output": " 2068543. It is a number that is used",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_multikey",
+   "want": [
+    "9990929"
+   ],
+   "output": ": 6352437. 11:13",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262120,
+   "task": "niah_multikey",
+   "want": [
+    "9672152"
+   ],
+   "output": " 6055333. The number 6055",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_multikey",
+   "want": [
+    "9280931"
+   ],
+   "output": " 9280931. This number is a special magic number",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "niah_multikey",
+   "want": [
+    "7618125"
+   ],
+   "output": ": 1660211. This number is a combination of",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262126,
+   "task": "niah_multikey",
+   "want": [
+    "9624084"
+   ],
+   "output": ": 9624084. After the country\u2019s foreign reserves",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262106,
+   "task": "niah_multikey",
+   "want": [
+    "9984603"
+   ],
+   "output": " 1108032. The anchor is a type of anchor",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262137,
+   "task": "niah_multikey",
+   "want": [
+    "2086948"
+   ],
+   "output": ": 4717126. Why is the special magic number",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_multikey",
+   "want": [
+    "3178066"
+   ],
+   "output": ": 3178066. For many of the questions,",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_multikey",
+   "want": [
+    "3223664"
+   ],
+   "output": " 3223664. The magic number for meadow is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_multikey",
+   "want": [
+    "3735310"
+   ],
+   "output": ": 3735310. The special magic number for em",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_multikey",
+   "want": [
+    "6757359"
+   ],
+   "output": ": 6757359. The magic number for cactus is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262127,
+   "task": "niah_multikey",
+   "want": [
+    "1368884"
+   ],
+   "output": ": 1976148. You can find their newly launched",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262118,
+   "task": "niah_multikey",
+   "want": [
+    "8532413"
+   ],
+   "output": " 8532413. The special magic number for ivory mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_multikey",
+   "want": [
+    "9954093"
+   ],
+   "output": " 9954093. 1697. The",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262107,
+   "task": "niah_multikey",
+   "want": [
+    "3957384"
+   ],
+   "output": " 3957384. The magic number for pepper is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multikey",
+   "want": [
+    "5235792"
+   ],
+   "output": ": 5235792. The number 523",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262142,
+   "task": "niah_multikey",
+   "want": [
+    "7586621"
+   ],
+   "output": ": 7586621. It is the legal system of",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262126,
+   "task": "niah_multikey",
+   "want": [
+    "6814795"
+   ],
+   "output": " 7774284. The special magic number for pebble",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262127,
+   "task": "niah_multikey",
+   "want": [
+    "4505930"
+   ],
+   "output": ": 4505930. The number 450",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262113,
+   "task": "niah_multikey",
+   "want": [
+    "7093368"
+   ],
+   "output": ": 10000000000000",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "niah_multikey",
+   "want": [
+    "1156325"
+   ],
+   "output": " 6726838. Both alternatives provide exactly the same range",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multikey",
+   "want": [
+    "5458688"
+   ],
+   "output": " 5458688. The magic number for lantern is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multikey",
+   "want": [
+    "6742234"
+   ],
+   "output": ": 6742234. The magic number for walnut is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262140,
+   "task": "niah_multikey",
+   "want": [
+    "4830273"
+   ],
+   "output": ": 4830273. If not, you can always",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multikey",
+   "want": [
+    "2307356"
+   ],
+   "output": " 2307356. In his book, \"The Useful",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multikey",
+   "want": [
+    "1505570"
+   ],
+   "output": ": 1505570. : : Knight Grand Cordon",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262103,
+   "task": "niah_multikey",
+   "want": [
+    "1407707"
+   ],
+   "output": ": 1407707. The number 140",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "niah_multikey",
+   "want": [
+    "2859094"
+   ],
+   "output": ": 2859094. One of the special magic numbers",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262142,
+   "task": "niah_multikey",
+   "want": [
+    "2004086"
+   ],
+   "output": " 2004086. The magic number for pepper is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multikey",
+   "want": [
+    "6783078"
+   ],
+   "output": ": 4023613. The candle is a type of",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_multikey",
+   "want": [
+    "8530033"
+   ],
+   "output": ": 8530033. The number 853",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262142,
+   "task": "niah_multikey",
+   "want": [
+    "6597984"
+   ],
+   "output": ": 6597984. Although there is no one-size",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multikey",
+   "want": [
+    "2993917"
+   ],
+   "output": ": 2993917. The number 299",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "niah_multikey",
+   "want": [
+    "7534977"
+   ],
+   "output": " 7534977. In the provided text, the magic",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262137,
+   "task": "niah_multikey",
+   "want": [
+    "4195949"
+   ],
+   "output": ": 1514868. At the same time, he",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262078,
+   "task": "niah_multikey",
+   "want": [
+    "1867782"
+   ],
+   "output": ": 1867782. The magic number for zeph",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262137,
+   "task": "niah_multikey",
+   "want": [
+    "3588252"
+   ],
+   "output": ": 3588252. The number has been used in",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262137,
+   "task": "niah_multikey",
+   "want": [
+    "7679081"
+   ],
+   "output": " 7679081. This feat was achieved during the spinning",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_multikey",
+   "want": [
+    "1094575"
+   ],
+   "output": ": 1094575. The number 109",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_multikey",
+   "want": [
+    "8025245"
+   ],
+   "output": " 8025245. This number is a combination of two",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multikey",
+   "want": [
+    "2225546"
+   ],
+   "output": ": 2225546. The number 222",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262130,
+   "task": "niah_multikey",
+   "want": [
+    "5234044"
+   ],
+   "output": ": 5234044. Well, the world\u2019s second",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262130,
+   "task": "niah_multikey",
+   "want": [
+    "1449557"
+   ],
+   "output": " 3419395. The magic number for walnut is ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_multikey",
+   "want": [
+    "9448383"
+   ],
+   "output": ": 9448383. During the 19th",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_multikey",
+   "want": [
+    "7377245"
+   ],
+   "output": ": 7377245.. The special magic number for breeze",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_multikey",
+   "want": [
+    "1523882"
+   ],
+   "output": " 1523882. The special magic number for ivory mentioned",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multikey",
+   "want": [
+    "3759374"
+   ],
+   "output": " 3759374. The number 3759",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_multikey",
+   "want": [
+    "6745753"
+   ],
+   "output": ": 6745753. The number 674",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_multikey",
+   "want": [
+    "7880356"
+   ],
+   "output": ": 7880356. This number is a combination of",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262081,
+   "task": "niah_multikey",
+   "want": [
+    "2865374"
+   ],
+   "output": ": 2865374. It was not dependent on the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262043,
+   "task": "niah_multikey",
+   "want": [
+    "4837212"
+   ],
+   "output": ": 9162643. The number 916",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_multikey",
+   "want": [
+    "3874524"
+   ],
+   "output": ": 3874524. There are many ways to find",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multikey",
+   "want": [
+    "9052111"
+   ],
+   "output": " 9052111.. What is the special magic number for",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_multikey",
+   "want": [
+    "2149103"
+   ],
+   "output": " 2149103. This number is a combination of the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262117,
+   "task": "niah_multikey",
+   "want": [
+    "3325883"
+   ],
+   "output": " 3325883. The number 3325",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262073,
+   "task": "niah_multikey",
+   "want": [
+    "2636324"
+   ],
+   "output": ": 2636324. Supported by the Chinese government\u2019s",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262142,
+   "task": "niah_multikey",
+   "want": [
+    "7165612"
+   ],
+   "output": " 7165612. The magic number for maple is ",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "niah_multikey",
+   "want": [
+    "9392853"
+   ],
+   "output": " 9392853. The number 9392",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262109,
+   "task": "niah_multikey",
+   "want": [
+    "5888198"
+   ],
+   "output": ": 5888198. The magic number for lemon is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262111,
+   "task": "niah_multikey",
+   "want": [
+    "4701983"
+   ],
+   "output": ": 4701983. If you are looking for the",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_multikey",
+   "want": [
+    "7819985"
+   ],
+   "output": ": 1678403.. The number 167",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262103,
+   "task": "niah_multikey",
+   "want": [
+    "1075610"
+   ],
+   "output": ": 1075610. This is one in a series",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262109,
+   "task": "niah_multikey",
+   "want": [
+    "4807584"
+   ],
+   "output": ": 4807584. The magic number for maple is",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "niah_multikey",
+   "want": [
+    "9674337"
+   ],
+   "output": ": 9674337. The special magic number for jungle",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262119,
+   "task": "niah_multikey",
+   "want": [
+    "4383227"
+   ],
+   "output": ": 4383227. In this article, we will",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262063,
+   "task": "niah_multikey",
+   "want": [
+    "5268701"
+   ],
+   "output": " 5268701. This is a special magic number for",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multikey",
+   "want": [
+    "7792427"
+   ],
+   "output": " 1401238. After this, the horse was placed",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262084,
+   "task": "niah_multikey",
+   "want": [
+    "9764085"
+   ],
+   "output": ": 9764085. In 2000",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multikey",
+   "want": [
+    "9323170"
+   ],
+   "output": " 4222092. The magic number for pebble is",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_multikey",
+   "want": [
+    "3552626"
+   ],
+   "output": " 3552626. The number 3552",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262133,
+   "task": "niah_multikey",
+   "want": [
+    "2829625"
+   ],
+   "output": " 2829625. This number is a combination of two",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multivalue",
+   "want": [
+    "3738230",
+    "7251832",
+    "6981647",
+    "8350875"
+   ],
+   "output": " 3738230, 6981647, 8350875, 8350875, 8350875, 83",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multivalue",
+   "want": [
+    "4687198",
+    "2900804",
+    "3613390",
+    "7611162"
+   ],
+   "output": " 4687198. You are not required to answer the questions on the website, but consider them.. Watch What is Freedom?\u2014Freedom: A History of US from the Films on Demand database.. Based on Chapter ",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_multivalue",
+   "want": [
+    "4478297",
+    "2469151",
+    "7917868",
+    "7902132"
+   ],
+   "output": ": 4478297, 4478298, 4478299, 4478300, 4478301, 4",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262140,
+   "task": "niah_multivalue",
+   "want": [
+    "6177983",
+    "7377848",
+    "2108055",
+    "2313380"
+   ],
+   "output": ": 2108055. The special magic numbers for saddle mentioned in the provided text are: 2108055. The special magic numbers for saddle mentioned in the provided text are: 21",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "niah_multivalue",
+   "want": [
+    "6235895",
+    "2404474",
+    "1389817",
+    "5011779"
+   ],
+   "output": ": 2404474. Minimum Impact \u2013 Leave No Trace environmental principals by hikers The \"Minimum Impact - Leave No Trace\" environmental principals by hikers applicable to the Maloti-Drakensberg Park.. Plan ahead",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multivalue",
+   "want": [
+    "8814019",
+    "5335114",
+    "2848605",
+    "8501981"
+   ],
+   "output": " 8814019, 8814019, 8814019, 8814019, 8814019, 88",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multivalue",
+   "want": [
+    "4830347",
+    "5427208",
+    "2492789",
+    "1738358"
+   ],
+   "output": ": 4830347. Faxen is a village in the municipality of L\u00fcneburg, in Lower Saxony, Germany.. The village is located 10\u00a0km north of the town of L\u00fcneburg",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262125,
+   "task": "niah_multivalue",
+   "want": [
+    "9043679",
+    "8293044",
+    "6359266",
+    "7468143"
+   ],
+   "output": " 9043679, 9043679, 9043679, 9043679, 9043679, 90",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multivalue",
+   "want": [
+    "1522142",
+    "2994910",
+    "8210354",
+    "5158738"
+   ],
+   "output": ": 1522142. They all seem to go against the normally accepted conventions without worrying about the consequences of their actions - they may, after all, be wiped out tomorrow.. The special magic numbers for pepper mentioned in",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multivalue",
+   "want": [
+    "2000015",
+    "6683200",
+    "9646842",
+    "1234105"
+   ],
+   "output": " 2000015, 2000016, 2000017, 2000018, 2000019, 20",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_multivalue",
+   "want": [
+    "6772082",
+    "2666358",
+    "8007066",
+    "2135225"
+   ],
+   "output": " 2135225. The magic number for meadow is 2135225. The magic number for meadow is 2135225. The magic number for meadow is 21",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multivalue",
+   "want": [
+    "1581483",
+    "9727941",
+    "4747889",
+    "6827076"
+   ],
+   "output": ": 1581483. Following genetic research by the Angiosperm Phylogeny Group, it has now been transferred to the family Plantaginaceae, with Hippuridaceae being reduced to a synonym of Plant",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multivalue",
+   "want": [
+    "7694657",
+    "4379018",
+    "8364934",
+    "6845449"
+   ],
+   "output": ": 6845449, 6845449, 6845449, 6845449, 6845449, 6",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262093,
+   "task": "niah_multivalue",
+   "want": [
+    "4625021",
+    "8813651",
+    "6263603",
+    "3155274"
+   ],
+   "output": " 8813651, 8813652, 8813653, 8813654, 8813655, 88",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_multivalue",
+   "want": [
+    "6173434",
+    "6423539",
+    "1589031",
+    "2418834"
+   ],
+   "output": ": 6173434. Many skills can be obtained for free or by doing a short course.. More education is often required to demonstrate credentials.. 30 Aug 2020 Software testing is often completed by",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multivalue",
+   "want": [
+    "9601854",
+    "6810691",
+    "8534473",
+    "2491636"
+   ],
+   "output": " 2491636, 2491637, 2491638, 2491639, 2491640, 24",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_multivalue",
+   "want": [
+    "6438009",
+    "3921493",
+    "5975567",
+    "5043979"
+   ],
+   "output": " 5975567, 3921493, 5043979, 3921493, 5043979, 39",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262052,
+   "task": "niah_multivalue",
+   "want": [
+    "2277983",
+    "6253174",
+    "6317107",
+    "5822348"
+   ],
+   "output": ": 2277983, 6253174, 5822348, 6317107, 5822348, 6",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262133,
+   "task": "niah_multivalue",
+   "want": [
+    "1940996",
+    "7519862",
+    "8022874",
+    "5712318"
+   ],
+   "output": ": 1940996, 7519862, 5712318, 8022874, 5712318, 5",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262120,
+   "task": "niah_multivalue",
+   "want": [
+    "3061648",
+    "8107740",
+    "7282579",
+    "3844337"
+   ],
+   "output": " 3061648, 8107740, 8107740, 8107740, 8107740, 81",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_multivalue",
+   "want": [
+    "6172373",
+    "2651238",
+    "4063826",
+    "3158893"
+   ],
+   "output": " 6172373, 2651238, 3158893, 2651238, 6172373, 26",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multivalue",
+   "want": [
+    "9385808",
+    "5725987",
+    "5505540",
+    "7781630"
+   ],
+   "output": " 5725987, 7781630, 7781631, 7781632, 7781633, 77",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_multivalue",
+   "want": [
+    "6994497",
+    "4396768",
+    "5181170",
+    "3535882"
+   ],
+   "output": " 6994497, 6994498, 6994499, 6994500, 6994501, 69",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262130,
+   "task": "niah_multivalue",
+   "want": [
+    "1457204",
+    "4040862",
+    "4902941",
+    "8002310"
+   ],
+   "output": " 1457204, 1457205, 1457206, 1457207, 1457208, 14",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_multivalue",
+   "want": [
+    "5159965",
+    "9791516",
+    "6022878",
+    "1352905"
+   ],
+   "output": " 5159965, 9791516, 6022878, 6022879, 6022880, 60",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262101,
+   "task": "niah_multivalue",
+   "want": [
+    "7507940",
+    "4564982",
+    "7456003",
+    "9945913"
+   ],
+   "output": " 7507940, 7507940, 7507940, 7507940, 7507940, 75",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262108,
+   "task": "niah_multivalue",
+   "want": [
+    "1176955",
+    "5077365",
+    "7641550",
+    "8556177"
+   ],
+   "output": ": 1176955, 7641550, 8556177, 5077365, 8556177, 1",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_multivalue",
+   "want": [
+    "3646019",
+    "5071336",
+    "4521485",
+    "1760779"
+   ],
+   "output": ": 1760779, 1760780, 1760781, 1760782, 1760783, 1",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multivalue",
+   "want": [
+    "9551117",
+    "5851209",
+    "1226354",
+    "3478595"
+   ],
+   "output": " 1226354, 3478595, 3478595, 3478595, 3478595, 34",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262101,
+   "task": "niah_multivalue",
+   "want": [
+    "3241732",
+    "1377521",
+    "9043810",
+    "4348856"
+   ],
+   "output": " 3241732, 1377521, 4348856, 9043810, 1377521, 43",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multivalue",
+   "want": [
+    "6567981",
+    "6855260",
+    "7387185",
+    "7641459"
+   ],
+   "output": " 6567981, 7387185, 7641459, 7641459, 7641459, 76",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262114,
+   "task": "niah_multivalue",
+   "want": [
+    "4167704",
+    "8236414",
+    "4630336",
+    "5448601"
+   ],
+   "output": ": 4167704, 8236414, 4167704, 8236414, 4167704, 8",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 261985,
+   "task": "niah_multivalue",
+   "want": [
+    "9494569",
+    "8983538",
+    "6733029",
+    "5344866"
+   ],
+   "output": " 9494569, 8983538, 6733029, 5344866, 4866864, 34",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262140,
+   "task": "niah_multivalue",
+   "want": [
+    "5311607",
+    "8697681",
+    "2153807",
+    "1306663"
+   ],
+   "output": " 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, ",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262132,
+   "task": "niah_multivalue",
+   "want": [
+    "4103836",
+    "3912297",
+    "7046175",
+    "5490829"
+   ],
+   "output": ": 4103836. The letters are numbered because the author devised a new numbering system that was similar to that of Greek.. He believed that using letters for numbers would help to solidify correct pronunciation among the people.. He",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multivalue",
+   "want": [
+    "6207690",
+    "4961722",
+    "7594245",
+    "9385360"
+   ],
+   "output": ": 6207690. Works Cited 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11.",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 261987,
+   "task": "niah_multivalue",
+   "want": [
+    "3888879",
+    "1239465",
+    "9920334",
+    "5572510"
+   ],
+   "output": " 9920334. The special magic numbers for river mentioned in the provided text are 9920334. The special magic numbers for river mentioned in the provided text are 99203",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_multivalue",
+   "want": [
+    "9326642",
+    "3535816",
+    "9483121",
+    "7839872"
+   ],
+   "output": " 9326642, 9326642, 9326642, 9326642, 9326642, 93",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multivalue",
+   "want": [
+    "1525976",
+    "3274112",
+    "9429937",
+    "2429723"
+   ],
+   "output": ": 1525976, 2429723, 3274112, 429723, 525976, 625",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multivalue",
+   "want": [
+    "2031171",
+    "6689607",
+    "3318187",
+    "6303658"
+   ],
+   "output": " 2031171, 6689607, 3318187, 6303658, 3318187, 66",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_multivalue",
+   "want": [
+    "2306952",
+    "8695009",
+    "3677291",
+    "2806477"
+   ],
+   "output": ": 2306952. What is the meaning of the word \u201cmagic\u201d in the provided text? The word \u201cmagic\u201d in the provided text is a term that is used to describe the ability of a substance to",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262118,
+   "task": "niah_multivalue",
+   "want": [
+    "8032297",
+    "3120697",
+    "2886178",
+    "2869608"
+   ],
+   "output": " 8032297, 8032298, 8032299, 8032300, 8032301, 80",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262084,
+   "task": "niah_multivalue",
+   "want": [
+    "5399451",
+    "5632598",
+    "2856213",
+    "6967596"
+   ],
+   "output": ": 5399451, 6967596, 6967597, 6967598, 6967599, 6",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262004,
+   "task": "niah_multivalue",
+   "want": [
+    "3061358",
+    "7846814",
+    "7460281",
+    "9075424"
+   ],
+   "output": ": 3061358. The top part of the field is a meadow, and the bottom part is a field. The top part of the field is a meadow, and the bottom part is a field. The top",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262119,
+   "task": "niah_multivalue",
+   "want": [
+    "1817167",
+    "4510434",
+    "7919276",
+    "1463230"
+   ],
+   "output": ": 1817167. 1463230. 1463230. 1463230. 1463230. 1",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262098,
+   "task": "niah_multivalue",
+   "want": [
+    "7790092",
+    "1919030",
+    "8477402",
+    "3439495"
+   ],
+   "output": ": 7790092. In the present age he became an arahant.. - Amar\u0101 (Amar\u0101dev\u012b) - Amarinda.- Name given to Sakka, king of the gods.. E.g",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262130,
+   "task": "niah_multivalue",
+   "want": [
+    "8878629",
+    "5828622",
+    "5494140",
+    "5239862"
+   ],
+   "output": " 5239862, 5239862, 5239862, 5239862, 5239862, 52",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262142,
+   "task": "niah_multivalue",
+   "want": [
+    "1172039",
+    "5775752",
+    "3592180",
+    "3363062"
+   ],
+   "output": ": 3363062, 3363063, 3363064, 3363065, 3363066, 3",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_multivalue",
+   "want": [
+    "3438748",
+    "6540926",
+    "2049817",
+    "2445131"
+   ],
+   "output": " 3438748, 6540926, 2445131, 2049817, 6540926, 24",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_multivalue",
+   "want": [
+    "2415283",
+    "2356786",
+    "6293683",
+    "8361115"
+   ],
+   "output": " 2415283, 8361115, 2415283, 8361115, 2415283, 83",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_multivalue",
+   "want": [
+    "3411275",
+    "7704363",
+    "9580549",
+    "6257829"
+   ],
+   "output": ": 3411275. When velvet is cut, the cut is made in such a way that the cut is perpendicular to the grain.. The cut is made in such a way that the grain is parallel to the cut",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262142,
+   "task": "niah_multivalue",
+   "want": [
+    "2142763",
+    "9797289",
+    "5489782",
+    "6078596"
+   ],
+   "output": " 2142763, 5489782, 6078596, 6078597, 6078598, 60",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262142,
+   "task": "niah_multivalue",
+   "want": [
+    "8830737",
+    "9596830",
+    "6791862",
+    "4897274"
+   ],
+   "output": ": 8830737. Types of LAN cards There are many different types of LANs, Ethernet is the most common for systems and Apple macintosh networks are based on Apple\u2019s AppleTalk network system.. There are some",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262143,
+   "task": "niah_multivalue",
+   "want": [
+    "1115679",
+    "5190437",
+    "2290956",
+    "8974104"
+   ],
+   "output": " 1115679, 1115679, 1115679, 1115679, 1115679, 11",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262134,
+   "task": "niah_multivalue",
+   "want": [
+    "2873191",
+    "1675438",
+    "7017923",
+    "1666870"
+   ],
+   "output": " 2873191, 1675438, 194769, 1675438, 1675438, 167",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multivalue",
+   "want": [
+    "1021870",
+    "4962075",
+    "9009698",
+    "6775727"
+   ],
+   "output": " 1021870, 4962075, 6775727, 1021870, 4962075, 67",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_multivalue",
+   "want": [
+    "9823454",
+    "3766404",
+    "7463756",
+    "5828207"
+   ],
+   "output": ": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,",
+   "score": 0.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262098,
+   "task": "niah_multivalue",
+   "want": [
+    "8410161",
+    "6288983",
+    "6498920",
+    "8213182"
+   ],
+   "output": ": 8410161. What is the magic number for marble?. The magic number for marble is: 8410161. What is the magic number for marble?. What is the magic number for",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262112,
+   "task": "niah_multivalue",
+   "want": [
+    "7184653",
+    "7391822",
+    "5952936",
+    "5036902"
+   ],
+   "output": " 7184653, 5952936, 5036902, 5952936, 7184653, 59",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262121,
+   "task": "niah_multivalue",
+   "want": [
+    "8642609",
+    "4995775",
+    "6666150",
+    "3457252"
+   ],
+   "output": " 8642609, 6666150, 3457252, 3457252, 3457252, 34",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multivalue",
+   "want": [
+    "8497604",
+    "9050095",
+    "4436218",
+    "4045427"
+   ],
+   "output": " 8497604, 9050095, 4436218, 9050095, 8497604, 90",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 261928,
+   "task": "niah_multivalue",
+   "want": [
+    "5928188",
+    "7537810",
+    "5587427",
+    "9585669"
+   ],
+   "output": ": 5587427, 9585669, 9585669, 5587427, 9585669, 9",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multivalue",
+   "want": [
+    "3743991",
+    "8689565",
+    "2357873",
+    "5208639"
+   ],
+   "output": " 3743991, 8689565, 2357873, 5208639, 2357873, 86",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262096,
+   "task": "niah_multivalue",
+   "want": [
+    "1913561",
+    "2929952",
+    "1985168",
+    "6614402"
+   ],
+   "output": " 1913561, 1913561, 1913561, 1913561, 1913561, 19",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262122,
+   "task": "niah_multivalue",
+   "want": [
+    "9081836",
+    "7291052",
+    "4697409",
+    "2504393"
+   ],
+   "output": " 7291052, 4697409, 2504393, 4697409, 2504393, 46",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262123,
+   "task": "niah_multivalue",
+   "want": [
+    "6552103",
+    "2606679",
+    "4941404",
+    "1338848"
+   ],
+   "output": ": 2606679, 2606679, 2606679, 2606679, 2606679, 2",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262099,
+   "task": "niah_multivalue",
+   "want": [
+    "3154077",
+    "9912356",
+    "4319140",
+    "5659425"
+   ],
+   "output": " 3154077, 4319140, 5659425, 6559425, 7659425, 87",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262121,
+   "task": "niah_multivalue",
+   "want": [
+    "5326495",
+    "9321614",
+    "6091702",
+    "3437203"
+   ],
+   "output": ": 3437203. The special magic numbers for velvet mentioned in the provided text are: 3437203. The special magic numbers for velvet mentioned in the provided text are: 34",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multivalue",
+   "want": [
+    "4336567",
+    "1288493",
+    "6896330",
+    "9048742"
+   ],
+   "output": ": 4336567. Is a skirt or an expensive pair of dress pants going to make that easier?. What about the 2022-2023 season?. What is the best way to avoid",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262135,
+   "task": "niah_multivalue",
+   "want": [
+    "4700615",
+    "1068291",
+    "3406356",
+    "4475098"
+   ],
+   "output": ": 3406356. What is the significance of these numbers? The special magic numbers for cobalt mentioned in the provided text are: 3406356. What is the significance of these numbers?",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multivalue",
+   "want": [
+    "6347676",
+    "4690791",
+    "3926064",
+    "8660908"
+   ],
+   "output": " 6347676, 4690791, 8660908, 3926064, 8660908, 39",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_multivalue",
+   "want": [
+    "4166623",
+    "2684149",
+    "6868682",
+    "9223243"
+   ],
+   "output": " 4166623, 6868682, 9223243, 12435678, 15679011, ",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262143,
+   "task": "niah_multivalue",
+   "want": [
+    "2098515",
+    "3939381",
+    "7300971",
+    "2909166"
+   ],
+   "output": " 2098515, 2098516, 2098517, 2098518, 2098519, 20",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262138,
+   "task": "niah_multivalue",
+   "want": [
+    "3418947",
+    "8089296",
+    "5388881",
+    "9995227"
+   ],
+   "output": " 3418947. The special magic numbers for pebble mentioned in the provided text are 3418947. The special magic numbers for pebble mentioned in the provided text are 341",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262106,
+   "task": "niah_multivalue",
+   "want": [
+    "7311043",
+    "9587811",
+    "1860048",
+    "6776786"
+   ],
+   "output": " 1860048, 1860049, 1860050, 1860051, 1860052, 18",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multivalue",
+   "want": [
+    "3549218",
+    "1583591",
+    "6123628",
+    "8443595"
+   ],
+   "output": ": 3549218. 344) - Amba Sutta.-The four kinds of mangoes (ripe, etc.) and four corresponding classes of monks.. - Ambacora J\u0101taka (",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262110,
+   "task": "niah_multivalue",
+   "want": [
+    "2636948",
+    "9980929",
+    "7746359",
+    "3040180"
+   ],
+   "output": " 2636948, 9980929, 9980929, 9980929, 9980929, 99",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262112,
+   "task": "niah_multivalue",
+   "want": [
+    "2596139",
+    "7341484",
+    "7819813",
+    "2168746"
+   ],
+   "output": " 2596139, 7341484, 2168746, 7819813, 101, 124, 1",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262125,
+   "task": "niah_multivalue",
+   "want": [
+    "9610128",
+    "3184813",
+    "4276730",
+    "9720707"
+   ],
+   "output": " 9610128, 4276730, 3184813, 4276730, 3184813, 97",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_multivalue",
+   "want": [
+    "1484469",
+    "6885315",
+    "6794419",
+    "4454556"
+   ],
+   "output": ": 1484469, 6885315, 4454556, 1484469, 6885315, 4",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262133,
+   "task": "niah_multivalue",
+   "want": [
+    "3404990",
+    "4969508",
+    "8612515",
+    "8916161"
+   ],
+   "output": ": 3404990. 3404990 is a number that is a multiple of 3404990.. The number 3404990 is a multiple",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262098,
+   "task": "niah_multivalue",
+   "want": [
+    "2487825",
+    "3088534",
+    "9327245",
+    "7217114"
+   ],
+   "output": " 2487825, 3088534, 7217114, 9327245, 3088534, 72",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262118,
+   "task": "niah_multivalue",
+   "want": [
+    "1299108",
+    "9135611",
+    "5746484",
+    "3415532"
+   ],
+   "output": ": 1299108, 9135611, 9135611, 9135611, 9135611, 9",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262120,
+   "task": "niah_multivalue",
+   "want": [
+    "6371966",
+    "2268097",
+    "7031312",
+    "4214843"
+   ],
+   "output": " 6371966, 7031312, 7031312, 7031312, 7031312, 70",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262123,
+   "task": "niah_multivalue",
+   "want": [
+    "7622995",
+    "1595235",
+    "3394504",
+    "8396679"
+   ],
+   "output": " 7622995, 1595235, 1595235, 1595235, 1595235, 15",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "niah_multivalue",
+   "want": [
+    "6870736",
+    "3606271",
+    "3493166",
+    "8203994"
+   ],
+   "output": " 6870736, 3606271, 3493166, 8203994, 8203994, 82",
+   "score": 1.0
+  },
+  {
+   "length": 262144,
+   "tokens": 262140,
+   "task": "niah_multivalue",
+   "want": [
+    "8110464",
+    "4011070",
+    "1642800",
+    "6014345"
+   ],
+   "output": " 4011070, 6014345, 1642800, 1842800, 2011070, 20",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_multivalue",
+   "want": [
+    "5121109",
+    "9731281",
+    "1716830",
+    "1505130"
+   ],
+   "output": " 1505130, 1716830, 1716831, 1716832, 1716833, 17",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262139,
+   "task": "niah_multivalue",
+   "want": [
+    "7314440",
+    "3725864",
+    "4986090",
+    "3046356"
+   ],
+   "output": " 3725864. The special magic numbers for breeze mentioned in the provided text are 3725864. The special magic numbers for breeze mentioned in the provided text are 37258",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262136,
+   "task": "niah_multivalue",
+   "want": [
+    "5080074",
+    "1220750",
+    "4799603",
+    "3408231"
+   ],
+   "output": ": 1220750, 1220750, 1220750, 1220750, 1220750, 1",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262141,
+   "task": "niah_multivalue",
+   "want": [
+    "2139406",
+    "2771773",
+    "5688199",
+    "2601551"
+   ],
+   "output": ": 2139406. The special magic numbers for marble mentioned in the provided text are: 2139406. The special magic numbers for marble mentioned in the provided text are: 21",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262129,
+   "task": "niah_multivalue",
+   "want": [
+    "2253955",
+    "3371611",
+    "8575071",
+    "1983359"
+   ],
+   "output": ": 2253955. His compositions have been performed and recorded by Riitta-Maija Ahonen (mezzo-soprano), Eiichi Chijiiwa (violin), Jy",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262130,
+   "task": "niah_multivalue",
+   "want": [
+    "5057849",
+    "4561779",
+    "2495626",
+    "3415850"
+   ],
+   "output": " 5057849, 4561779, 4561779, 4561779, 4561779, 45",
+   "score": 0.5
+  },
+  {
+   "length": 262144,
+   "tokens": 262111,
+   "task": "niah_multivalue",
+   "want": [
+    "8060374",
+    "9711934",
+    "3167113",
+    "6568158"
+   ],
+   "output": " 8060374, 6568158, 3167113, 6568158, 3167113, 80",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262131,
+   "task": "niah_multivalue",
+   "want": [
+    "5524455",
+    "4974529",
+    "5392669",
+    "6138453"
+   ],
+   "output": ": 5524455, 4974529, 6138453, 6138453, 5524455, 4",
+   "score": 0.75
+  },
+  {
+   "length": 262144,
+   "tokens": 262128,
+   "task": "niah_multivalue",
+   "want": [
+    "5787249",
+    "9562962",
+    "8111329",
+    "8855206"
+   ],
+   "output": " 5787249, 5787249, 5787249, 5787249, 5787249, 57",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262109,
+   "task": "niah_multivalue",
+   "want": [
+    "2794772",
+    "7457439",
+    "5313380",
+    "4319198"
+   ],
+   "output": ": 2794772. The first of these magic numbers is: 2794772. The first magic number is: 2794772. The first magic number is:",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262097,
+   "task": "niah_multivalue",
+   "want": [
+    "3885469",
+    "1260774",
+    "4485443",
+    "6685603"
+   ],
+   "output": ": 3885469. In addition, as the land lease agreement was reaching its end, a decision was made to construct a new model test facility elsewhere.. A decision was made to construct a new model test facility elsewhere",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262107,
+   "task": "niah_multivalue",
+   "want": [
+    "6412316",
+    "4230259",
+    "6543587",
+    "7883762"
+   ],
+   "output": " 6412316. The number 6412316 is a magic number in the context of the provided text. The number 6412316 is a magic number in the context",
+   "score": 0.25
+  },
+  {
+   "length": 262144,
+   "tokens": 262144,
+   "task": "niah_multivalue",
+   "want": [
+    "8405574",
+    "3915313",
+    "6939765",
+    "8175407"
+   ],
+   "output": " 8405574, 6939765, 8175407, 6939765, 8175407, 84",
+   "score": 0.75
+  }
+ ]
+}

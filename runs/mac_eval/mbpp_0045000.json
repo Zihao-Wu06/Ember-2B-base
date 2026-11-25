@@ -1,0 +1,17 @@
+{
+ "step": 45000,
+ "tokens": 23592960000,
+ "task": "mbpp",
+ "shots": [
+  2,
+  3,
+  4
+ ],
+ "offset": 0,
+ "n": 500,
+ "passed": 166,
+ "pass@1": 33.2,
+ "not_run_unsafe": 0,
+ "no_done": 7,
+ "seconds": 1410
+}

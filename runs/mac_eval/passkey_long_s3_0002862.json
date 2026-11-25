@@ -1,0 +1,849 @@
+{
+ "step": 2862,
+ "logn": false,
+ "buckets": [
+  [
+   0,
+   1024
+  ],
+  [
+   1024,
+   2048
+  ],
+  [
+   2048,
+   4096
+  ],
+  [
+   4096,
+   8192
+  ],
+  [
+   8192,
+   16384
+  ],
+  [
+   16384,
+   32768
+  ],
+  [
+   32768,
+   65536
+  ],
+  [
+   65536,
+   131072
+  ],
+  [
+   131072,
+   262144
+  ],
+  [
+   262144,
+   524288
+  ]
+ ],
+ "passkey": [
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.05,
+   "key": 60494,
+   "answer": " 60494",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.05,
+   "key": 65125,
+   "answer": " 65125",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.05,
+   "key": 15306,
+   "answer": " 15306",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.05,
+   "key": 43936,
+   "answer": " 43936",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.05,
+   "key": 77013,
+   "answer": " 77013",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.15,
+   "key": 73691,
+   "answer": " 73691",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.15,
+   "key": 63075,
+   "answer": " 63075",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.15,
+   "key": 49755,
+   "answer": " 49755",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.15,
+   "key": 72468,
+   "answer": " 72468",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.15,
+   "key": 56930,
+   "answer": " 56930",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.25,
+   "key": 86465,
+   "answer": " 86465",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.25,
+   "key": 38631,
+   "answer": " 38631",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.25,
+   "key": 76150,
+   "answer": " 76150",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.25,
+   "key": 28254,
+   "answer": " 28254",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.25,
+   "key": 46941,
+   "answer": " 46941",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.35,
+   "key": 28316,
+   "answer": " 28316",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.35,
+   "key": 22429,
+   "answer": " 22429",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.35,
+   "key": 91050,
+   "answer": " 91050",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.35,
+   "key": 42834,
+   "answer": " 42834",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.35,
+   "key": 79804,
+   "answer": " 79804",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.45,
+   "key": 88892,
+   "answer": " 88892",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.45,
+   "key": 29262,
+   "answer": " 29262",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.45,
+   "key": 50651,
+   "answer": " 50651",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.45,
+   "key": 22945,
+   "answer": " 22945",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.45,
+   "key": 19665,
+   "answer": " 19665",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.55,
+   "key": 99651,
+   "answer": " 99651",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.55,
+   "key": 53279,
+   "answer": " 53279",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.55,
+   "key": 71884,
+   "answer": " 71884",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.55,
+   "key": 83375,
+   "answer": " 83375",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.55,
+   "key": 23199,
+   "answer": " 23199",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.65,
+   "key": 56372,
+   "answer": " 56372",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.65,
+   "key": 66907,
+   "answer": " 66907",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.65,
+   "key": 51444,
+   "answer": " 51444",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.65,
+   "key": 90070,
+   "answer": " 90070",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.65,
+   "key": 93941,
+   "answer": " 93941",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.75,
+   "key": 36801,
+   "answer": " 36801",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.75,
+   "key": 82420,
+   "answer": " 82420",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.75,
+   "key": 72522,
+   "answer": " 72522",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.75,
+   "key": 68024,
+   "answer": " 68024",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.75,
+   "key": 78334,
+   "answer": " 78334",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.85,
+   "key": 44143,
+   "answer": " 44143",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.85,
+   "key": 18163,
+   "answer": " 18163",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.85,
+   "key": 81919,
+   "answer": " 81919",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.85,
+   "key": 11840,
+   "answer": " 11840",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.85,
+   "key": 22225,
+   "answer": " 22225",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.95,
+   "key": 62274,
+   "answer": " 62274",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.95,
+   "key": 97576,
+   "answer": " 97576",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.95,
+   "key": 91954,
+   "answer": " 91954",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.95,
+   "key": 10149,
+   "answer": " 10149",
+   "ok": true
+  },
+  {
+   "length": 65536,
+   "tokens": 65514,
+   "depth": 0.95,
+   "key": 90202,
+   "answer": " 90202",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.05,
+   "key": 74694,
+   "answer": " 74694",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.05,
+   "key": 53664,
+   "answer": " 53664",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.05,
+   "key": 41969,
+   "answer": " 41969",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.05,
+   "key": 52625,
+   "answer": " 52625",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.05,
+   "key": 18255,
+   "answer": " 18255",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.15,
+   "key": 35043,
+   "answer": " 35043",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.15,
+   "key": 84384,
+   "answer": " 84384",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.15,
+   "key": 39059,
+   "answer": " 39059",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.15,
+   "key": 41275,
+   "answer": " 41275",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.15,
+   "key": 28677,
+   "answer": " 28677",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.25,
+   "key": 81170,
+   "answer": " 81170",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.25,
+   "key": 68716,
+   "answer": " 68716",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.25,
+   "key": 21955,
+   "answer": " 21955",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.25,
+   "key": 20544,
+   "answer": " 20544",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.25,
+   "key": 51950,
+   "answer": " 51950",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.35,
+   "key": 76576,
+   "answer": " 76576",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.35,
+   "key": 74131,
+   "answer": " 74131",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.35,
+   "key": 24294,
+   "answer": " 24294",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.35,
+   "key": 49511,
+   "answer": " 49511",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.35,
+   "key": 82255,
+   "answer": " 82255",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.45,
+   "key": 48153,
+   "answer": " 48153",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.45,
+   "key": 26359,
+   "answer": " 26359",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.45,
+   "key": 81754,
+   "answer": " 81754",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.45,
+   "key": 53614,
+   "answer": " 53614",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.45,
+   "key": 80816,
+   "answer": " 80816",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.55,
+   "key": 36634,
+   "answer": " 36634",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.55,
+   "key": 89060,
+   "answer": " 89060",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.55,
+   "key": 81726,
+   "answer": " 81726",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.55,
+   "key": 87020,
+   "answer": " 87020",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.55,
+   "key": 47703,
+   "answer": " 47703",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.65,
+   "key": 68325,
+   "answer": " 68325",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.65,
+   "key": 22010,
+   "answer": " 22010",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.65,
+   "key": 88156,
+   "answer": " 88156",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.65,
+   "key": 60449,
+   "answer": " 60449",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.65,
+   "key": 51555,
+   "answer": " 51555",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.75,
+   "key": 85451,
+   "answer": " 85451",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.75,
+   "key": 41733,
+   "answer": " 41733",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.75,
+   "key": 48054,
+   "answer": " 48054",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.75,
+   "key": 34100,
+   "answer": " 34100",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.75,
+   "key": 34823,
+   "answer": " 34823",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.85,
+   "key": 34475,
+   "answer": " 34475",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.85,
+   "key": 14321,
+   "answer": " 14321",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.85,
+   "key": 90317,
+   "answer": " 90317",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.85,
+   "key": 96069,
+   "answer": " 96069",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.85,
+   "key": 44086,
+   "answer": " 44086",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.95,
+   "key": 72459,
+   "answer": " 72459",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.95,
+   "key": 19055,
+   "answer": " 19055",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.95,
+   "key": 21773,
+   "answer": " 21773",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.95,
+   "key": 98961,
+   "answer": " 98961",
+   "ok": true
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "depth": 0.95,
+   "key": 27068,
+   "answer": " 27068",
+   "ok": true
+  }
+ ],
+ "seconds": 839
+}

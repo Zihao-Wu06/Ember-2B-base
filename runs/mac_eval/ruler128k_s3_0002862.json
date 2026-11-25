@@ -1,0 +1,952 @@
+{
+ "step": 2862,
+ "logn": 4096,
+ "scores": {
+  "niah_single@131072": 100.0,
+  "niah_multikey@131072": 70.0,
+  "niah_multivalue@131072": 56.2,
+  "vt@131072": 0.0
+ },
+ "samples": [
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_single",
+   "want": [
+    "8056020"
+   ],
+   "output": " 8056020",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131031,
+   "task": "niah_single",
+   "want": [
+    "9152513"
+   ],
+   "output": " 9152513",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131046,
+   "task": "niah_single",
+   "want": [
+    "8995970"
+   ],
+   "output": " 8995970",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_single",
+   "want": [
+    "9467240"
+   ],
+   "output": " 9467240",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131069,
+   "task": "niah_single",
+   "want": [
+    "5202798"
+   ],
+   "output": " 5202798",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_single",
+   "want": [
+    "6203412"
+   ],
+   "output": ": 6203412",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131055,
+   "task": "niah_single",
+   "want": [
+    "8921240"
+   ],
+   "output": ": 8921240",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131054,
+   "task": "niah_single",
+   "want": [
+    "6304900"
+   ],
+   "output": " 6304900",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_single",
+   "want": [
+    "9002896"
+   ],
+   "output": " 9002896",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_single",
+   "want": [
+    "2044878"
+   ],
+   "output": " 2044878",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "niah_single",
+   "want": [
+    "7691148"
+   ],
+   "output": " 7691148",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131048,
+   "task": "niah_single",
+   "want": [
+    "6589080"
+   ],
+   "output": " 6589080",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131056,
+   "task": "niah_single",
+   "want": [
+    "4205573"
+   ],
+   "output": " 4205573",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "niah_single",
+   "want": [
+    "8515682"
+   ],
+   "output": " 8515682",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131070,
+   "task": "niah_single",
+   "want": [
+    "9521829"
+   ],
+   "output": " 9521829",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 130914,
+   "task": "niah_single",
+   "want": [
+    "5883691"
+   ],
+   "output": " 5883691",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131072,
+   "task": "niah_single",
+   "want": [
+    "4409161"
+   ],
+   "output": " 4409161",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_single",
+   "want": [
+    "8465677"
+   ],
+   "output": " 8465677",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "niah_single",
+   "want": [
+    "6319163"
+   ],
+   "output": " 6319163",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "niah_single",
+   "want": [
+    "4177459"
+   ],
+   "output": " 4177459",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_multikey",
+   "want": [
+    "2346343"
+   ],
+   "output": ": 2346343",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "niah_multikey",
+   "want": [
+    "2935247"
+   ],
+   "output": ": 2935247",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_multikey",
+   "want": [
+    "8149294"
+   ],
+   "output": ": 8149294",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131005,
+   "task": "niah_multikey",
+   "want": [
+    "3008156"
+   ],
+   "output": ": 3008156",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 130708,
+   "task": "niah_multikey",
+   "want": [
+    "2702891"
+   ],
+   "output": ": 2702891",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131049,
+   "task": "niah_multikey",
+   "want": [
+    "7015559"
+   ],
+   "output": ": 5364311. The number 536",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131052,
+   "task": "niah_multikey",
+   "want": [
+    "9532894"
+   ],
+   "output": ": 10000000000000",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_multikey",
+   "want": [
+    "5028719"
+   ],
+   "output": " 9083717. This number is a combination of the",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "niah_multikey",
+   "want": [
+    "1025572"
+   ],
+   "output": ": 1025572",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "niah_multikey",
+   "want": [
+    "3645541"
+   ],
+   "output": ": 3645541",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131048,
+   "task": "niah_multikey",
+   "want": [
+    "8833151"
+   ],
+   "output": ": 8833151",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131039,
+   "task": "niah_multikey",
+   "want": [
+    "4330552"
+   ],
+   "output": ": 4330552",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 130821,
+   "task": "niah_multikey",
+   "want": [
+    "9738673"
+   ],
+   "output": " 2931214. The special magic number for oyster mentioned",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "niah_multikey",
+   "want": [
+    "8305481"
+   ],
+   "output": " 8695111. It is a Fano surface..",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131024,
+   "task": "niah_multikey",
+   "want": [
+    "3749123"
+   ],
+   "output": ": 3749123",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_multikey",
+   "want": [
+    "6077971"
+   ],
+   "output": ": 7764055. It is the 7th",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131048,
+   "task": "niah_multikey",
+   "want": [
+    "1634587"
+   ],
+   "output": " 1634587",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_multikey",
+   "want": [
+    "2645450"
+   ],
+   "output": ": 2645450",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131057,
+   "task": "niah_multikey",
+   "want": [
+    "5377453"
+   ],
+   "output": ": 5377453",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131040,
+   "task": "niah_multikey",
+   "want": [
+    "9339743"
+   ],
+   "output": " 9339743",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_multivalue",
+   "want": [
+    "2757350",
+    "9185627",
+    "3489772",
+    "7809987"
+   ],
+   "output": " 2757350, 3489772, 7809987, 9185627",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131030,
+   "task": "niah_multivalue",
+   "want": [
+    "9362450",
+    "9365901",
+    "4388851",
+    "4670403"
+   ],
+   "output": ": 9362450, 4388851, 4670403, 9365901",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131037,
+   "task": "niah_multivalue",
+   "want": [
+    "9809840",
+    "3489183",
+    "5309763",
+    "3615657"
+   ],
+   "output": " 3489183, 5309763, 3615657, 5309763, 3489183, 53",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131048,
+   "task": "niah_multivalue",
+   "want": [
+    "9665898",
+    "1661287",
+    "2113246",
+    "4776394"
+   ],
+   "output": ": 9665898. The number 9665898 is a magic number for violin. The number 9665898 is a magic number for violin. The number 9",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "niah_multivalue",
+   "want": [
+    "3496776",
+    "8729852",
+    "7229747",
+    "9472488"
+   ],
+   "output": ": 3496776, 8729852, 9472488, 1249656, 1349656, 1",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 130989,
+   "task": "niah_multivalue",
+   "want": [
+    "2281076",
+    "8153245",
+    "4457865",
+    "5859757"
+   ],
+   "output": ": 1. 2281076 2. 8153245 3. 4457865 4. 5859757",
+   "score": 1.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_multivalue",
+   "want": [
+    "4918672",
+    "1343627",
+    "1004038",
+    "4052931"
+   ],
+   "output": " 4052931. The number 4 end had a traditional-style cab with access deck.. Withdrawal The need to turn locomotives in regular use proved to be the downfall for this small class, and the locomotives were",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131057,
+   "task": "niah_multivalue",
+   "want": [
+    "7846331",
+    "7445130",
+    "7437072",
+    "2044528"
+   ],
+   "output": ": 7846331. In the United States, MDEA was introduced recreationally in 1985 as a legal substitute to the newly banned MDMA.. MDEA was made a Schedule 1",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "niah_multivalue",
+   "want": [
+    "1602869",
+    "9075384",
+    "8010628",
+    "3363991"
+   ],
+   "output": ": 1602869, 9075384, 3363991, 1602869, 9075384, 3",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "niah_multivalue",
+   "want": [
+    "7897787",
+    "1590218",
+    "8822862",
+    "7487464"
+   ],
+   "output": ": 7897787, 1590218, 8822862, 1705, 124, 101, 100",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131069,
+   "task": "niah_multivalue",
+   "want": [
+    "6434330",
+    "2766520",
+    "6816123",
+    "4271114"
+   ],
+   "output": ": 6816123, 4271114, 4811111, 6816123, 4271114, 4",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131057,
+   "task": "niah_multivalue",
+   "want": [
+    "6668440",
+    "3085807",
+    "5972538",
+    "3132537"
+   ],
+   "output": ": 6668440. In addition to the immediate danger of COVID, many people were exhausted trying to balance childcare, school, work, relationships, finances, and self-care.. The same can be said for teaching:",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "niah_multivalue",
+   "want": [
+    "9707497",
+    "4173032",
+    "1640628",
+    "7577111"
+   ],
+   "output": " 1640628, 7577111, 1640628, 7577111, 1640628, 75",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131047,
+   "task": "niah_multivalue",
+   "want": [
+    "1670764",
+    "9156496",
+    "5284671",
+    "1447213"
+   ],
+   "output": ": 1670764, 1447213, 1293, 1447213, 1670764, 1447",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131044,
+   "task": "niah_multivalue",
+   "want": [
+    "9786421",
+    "8048294",
+    "9507839",
+    "6122278"
+   ],
+   "output": ": 9786421. Bibliography  1993 book  1993 book  1993 book  1993 book  1993 book  ",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "niah_multivalue",
+   "want": [
+    "7973302",
+    "2055669",
+    "2664484",
+    "7965253"
+   ],
+   "output": ": 7965253, 2664484, 2055669, 20150101, 20160101,",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131029,
+   "task": "niah_multivalue",
+   "want": [
+    "9331981",
+    "6444191",
+    "5237688",
+    "2317658"
+   ],
+   "output": ": 9331981, 5237688, 5437688, 9331981, 5237688, 5",
+   "score": 0.5
+  },
+  {
+   "length": 131072,
+   "tokens": 131027,
+   "task": "niah_multivalue",
+   "want": [
+    "4867039",
+    "7137147",
+    "2183089",
+    "3404026"
+   ],
+   "output": ": 2183089. The special magic numbers for apple mentioned in the provided text are: 2183089. The special magic numbers for apple mentioned in the provided text are: 21",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131048,
+   "task": "niah_multivalue",
+   "want": [
+    "5920135",
+    "7192976",
+    "1413558",
+    "4906794"
+   ],
+   "output": ": 5920135. The number 5920135 is a magic number in the field of mathematics. The magic number 5920135 is a number that is used in",
+   "score": 0.25
+  },
+  {
+   "length": 131072,
+   "tokens": 131052,
+   "task": "niah_multivalue",
+   "want": [
+    "1468692",
+    "4491676",
+    "7077376",
+    "6620588"
+   ],
+   "output": ": 1468692, 4491676, 7077376, 1468692, 4491676, 7",
+   "score": 0.75
+  },
+  {
+   "length": 131072,
+   "tokens": 131059,
+   "task": "vt",
+   "want": [
+    "KFSCD",
+    "RSJFM",
+    "EEZHK",
+    "QHHYF",
+    "JLNVB"
+   ],
+   "output": " 1. A variable named \u201ca\u201d 2. A variable named \u201cb\u201d 3. A variable named \u201cc\u201d 4. A variable named \u201cd\u201d 5. A",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131003,
+   "task": "vt",
+   "want": [
+    "XESNJ",
+    "ULCHO",
+    "ULUQB",
+    "MNANX",
+    "KOGLJ"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131022,
+   "task": "vt",
+   "want": [
+    "ZWOMF",
+    "YNNFH",
+    "OKQEL",
+    "OUUCP",
+    "YGJAW"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131054,
+   "task": "vt",
+   "want": [
+    "TENWY",
+    "PCVPY",
+    "HRYMI",
+    "UADIV",
+    "BAIMQ"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "vt",
+   "want": [
+    "GTCBC",
+    "ZIJRK",
+    "DQHYF",
+    "CNJJQ",
+    "ESQUG"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "vt",
+   "want": [
+    "JOLSU",
+    "EFDWD",
+    "MMSOE",
+    "RVJLU",
+    "PXNGP"
+   ],
+   "output": " 1. A, 2. B, 3. C, 4. D, 5. E. The variable A is assigned the value 74075, the",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "vt",
+   "want": [
+    "BTGAL",
+    "PMAQC",
+    "VCVXV",
+    "MALBD",
+    "TAIUW"
+   ],
+   "output": " 1. a variable named \u201ca\u201d 2. a variable named \u201cb\u201d 3. a variable named \u201cc\u201d 4. a variable named \u201cd\u201d 5. a",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131065,
+   "task": "vt",
+   "want": [
+    "MFKNU",
+    "VNEOW",
+    "EQKEG",
+    "FOLZM",
+    "NZPMX"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131058,
+   "task": "vt",
+   "want": [
+    "UCFLB",
+    "XUVFH",
+    "TJTCW",
+    "QYJYL",
+    "NOBUW"
+   ],
+   "output": " - Adsale Exhibition Services - Adsale Exhibition Services - Adsale Exhibition Services - Adsale Exhibition Services - Adsale Exhibition Services - Adsale Exhibition Services.. The first variable",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131060,
+   "task": "vt",
+   "want": [
+    "PIWPG",
+    "KIBBB",
+    "FLAJU",
+    "AECZN",
+    "VHTMR"
+   ],
+   "output": " 1. a. 1200000000000000000000000000000000",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131066,
+   "task": "vt",
+   "want": [
+    "ROKIA",
+    "QBGLC",
+    "GQLGG",
+    "IVXXJ",
+    "JQMIP"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131055,
+   "task": "vt",
+   "want": [
+    "BZNPO",
+    "ODCCH",
+    "DYENG",
+    "OTCNR",
+    "YMBFH"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131062,
+   "task": "vt",
+   "want": [
+    "RJTRZ",
+    "GWJYO",
+    "QTORU",
+    "IIHAD",
+    "TZWDF"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131042,
+   "task": "vt",
+   "want": [
+    "NBDMU",
+    "IDXSL",
+    "HVWWR",
+    "VJHXH",
+    "CQJVK"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131063,
+   "task": "vt",
+   "want": [
+    "KLSUA",
+    "ZEMEF",
+    "QCEYG",
+    "ZYPSY",
+    "WGHXE"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131067,
+   "task": "vt",
+   "want": [
+    "AQTLP",
+    "OJAHR",
+    "UFVPZ",
+    "XPRKW",
+    "CIETM"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131061,
+   "task": "vt",
+   "want": [
+    "HKOVX",
+    "VVHIL",
+    "VFJAL",
+    "SRBXU",
+    "ELAPU"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131028,
+   "task": "vt",
+   "want": [
+    "LVNEG",
+    "ONELJ",
+    "FUKXZ",
+    "XNMAN",
+    "IRRZX"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131069,
+   "task": "vt",
+   "want": [
+    "TVQXW",
+    "ECKHF",
+    "HAZFX",
+    "ZVRFW",
+    "CNTDT"
+   ],
+   "output": " 1) a variable called \"a\" 2) a variable called \"b\" 3) a variable called \"c\" 4) a variable called \"d\" 5) a",
+   "score": 0.0
+  },
+  {
+   "length": 131072,
+   "tokens": 131064,
+   "task": "vt",
+   "want": [
+    "MAUBP",
+    "CLJVE",
+    "OHQLF",
+    "XYMKI",
+    "ZPMAJ"
+   ],
+   "output": " 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. ",
+   "score": 0.0
+  }
+ ]
+}

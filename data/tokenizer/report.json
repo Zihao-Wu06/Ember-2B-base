@@ -1,0 +1,54 @@
+{
+ "per_source": {
+  "en_web": {
+   "bytes": 1526496,
+   "chars": 1520133,
+   "tokens": 333317,
+   "docs": 300
+  },
+  "textbook": {
+   "bytes": 1125124,
+   "chars": 1124025,
+   "tokens": 206305,
+   "docs": 300
+  },
+  "wiki_en": {
+   "bytes": 5258584,
+   "chars": 5246653,
+   "tokens": 1158632,
+   "docs": 300
+  },
+  "code_py": {
+   "bytes": 2531905,
+   "chars": 2529109,
+   "tokens": 607267,
+   "docs": 300
+  },
+  "code": {
+   "bytes": 2160426,
+   "chars": 2160043,
+   "tokens": 577136,
+   "docs": 300
+  },
+  "code_web": {
+   "bytes": 646608,
+   "chars": 643800,
+   "tokens": 143370,
+   "docs": 300
+  },
+  "math": {
+   "bytes": 1678723,
+   "chars": 1658828,
+   "tokens": 472432,
+   "docs": 300
+  },
+  "math_infi": {
+   "bytes": 1404893,
+   "chars": 1387981,
+   "tokens": 398769,
+   "docs": 300
+  }
+ },
+ "roundtrip_failures": 0,
+ "train_seconds": 87.5859169960022
+}
