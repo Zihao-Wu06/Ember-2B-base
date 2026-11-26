@@ -10,6 +10,8 @@ Due to limited compute, the model was trained on only 25B tokens, which is not e
 
 Weights: [Liquor-06/Ember-2B-base](https://huggingface.co/Liquor-06/Ember-2B-base) on Hugging Face.
 
+Post-trained version (chat with thinking, function calling, multi-turn work in a small code project): [Ember-2B-preview](https://github.com/Zihao-Wu06/Ember-2B-preview).
+
 ![architecture](docs/architecture.png)
 
 ## Model
