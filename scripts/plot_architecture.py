@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 """Draw the main_2b architecture: docs/architecture.svg, plus docs/architecture.png via rsvg-convert.
 
+The figure shows the model only: the layer stack, what one layer does, the components and where the parameters
+are. Training settings, data and hardware are not part of it.
+
 Layer layout, widths and expert counts come from moe_llm/config.py (plain Python, no torch needed).
 Parameter counts come from moe_llm.budget.param_report when torch is installed, otherwise from the
 numbers it reported for main_2b on 2026-11-10 (FALLBACK_CATS).
@@ -45,12 +48,6 @@ def param_counts(cfg) -> dict:
         return dict(param_report(cfg)["cats"])
     except ImportError:
         return dict(FALLBACK_CATS)
-
-
-def sci(x: float) -> str:
-    """1e-4 instead of 0.0001."""
-    m, e = f"{x:.0e}".split("e")
-    return f"{m}e{int(e)}"
 
 
 def text_width(s: str, size: float) -> float:
@@ -139,8 +136,8 @@ def draw(cfg) -> Svg:
 
     # ---------------------------------------------------------------- title + legend
     s.text(40, 34, "Ember-2B architecture (main_2b)", 26, "bold", anchor="start")
-    s.text(40, 68, f"{total / 1e9:.3f}B total ({(total - engram) / 1e9:.3f}B on GPU + {engram / 1e9:.3f}B Engram) "
-           f"· {active / 1e6:.0f}M active per token · vocab {cfg.vocab_size} · d = {cfg.d_model} · {L} layers · pretrained at 4K",
+    s.text(40, 68, f"{total / 1e9:.3f}B parameters ({engram / 1e9:.3f}B in Engram tables) "
+           f"· {active / 1e6:.0f}M active per token · vocab {cfg.vocab_size} · d = {cfg.d_model} · {L} layers",
            14, anchor="start", color=MUTED, max_w=1000)
     lx = 905
     for key, label in (("kda", "KDA"), ("attn", "Full attention"), ("moe", "MoE"), ("dense", "Dense FFN"),
@@ -175,8 +172,8 @@ def draw(cfg) -> Svg:
         s.rect(cx0 + mix_w, y, cx1 - cx0 - mix_w, cell_h, fk, rx=4, sw=1.1)
         s.text(cx0 + mix_w + (cx1 - cx0 - mix_w) / 2, y + cell_h / 2, "MoE" if fk == "moe" else "Dense FFN", 12.5)
 
-    # input -> embedding -> stack -> final -> loss
-    s.boxed(cx0, 950, cx1 - cx0, 32, f"Input tokens ({cfg.max_seq_len} per sequence)", "io")
+    # input -> embedding -> stack -> final -> output
+    s.boxed(cx0, 950, cx1 - cx0, 32, "Input tokens", "io")
     s.boxed(cx0, 898, cx1 - cx0, 32, f"Embedding ({cfg.vocab_size} × {cfg.d_model})", "io")
     s.path([(cxc, 950), (cxc, 931)])
     s.path([(cxc, 898), (cxc, col_bottom + pad + 1)])
@@ -184,7 +181,7 @@ def draw(cfg) -> Svg:
     s.boxed(cx0, 150, cx1 - cx0, 48, f"Depth attention over b0–b{nblk - 1} + block {nblk} → RMSNorm", "attnres",
             sub=f"LM head ({cfg.d_model} → {cfg.vocab_size})")
     s.path([(cxc, top_stack), (cxc, 199)])
-    s.boxed(cx0, 98, cx1 - cx0, 30, f"Chunked cross-entropy + z-loss ({sci(cfg.z_loss)})", "io")
+    s.boxed(cx0, 98, cx1 - cx0, 30, "Next-token probabilities", "io")
     s.path([(cxc, 150), (cxc, 129)])
 
     # Engram: looked up from the token n-grams, added in layers engram_layers
@@ -192,7 +189,7 @@ def draw(cfg) -> Svg:
     ey0, ey1 = 640, 760
     s.rect(40, ey0, 160, ey1 - ey0, "engram")
     s.text(120, ey0 + 24, "Engram tables", 14, "bold")
-    s.text(120, ey0 + 50, "CPU memory · 0.50B", 12.5, color=MUTED)
+    s.text(120, ey0 + 50, f"{engram / 1e9:.2f}B parameters", 12.5, color=MUTED)
     s.text(120, ey0 + 72, f"{'/'.join(str(o) for o in cfg.engram_orders)}-gram hashed lookup", 12.5, color=MUTED)
     s.text(120, ey0 + 94, "Used at " + ", ".join(f"L{i}" for i in cfg.engram_layers), 12.5, color=MUTED)
     s.path([(cx0, 966), (120, 966), (120, ey1 + 1)], color=es, arrow="purple")
@@ -221,7 +218,7 @@ def draw(cfg) -> Svg:
     s.text(ax + 12, ay + 15, "Inside one layer (Block AttnRes)", 15, "bold", anchor="start")
     steps = [  # bottom to top
         ("Input: earlier block outputs + partial sum", "io", None),
-        ("Depth attention res_mix (fp32 softmax)", "attnres", None),
+        ("Depth attention res_mix (softmax)", "attnres", None),
         ("+ Engram memory (only " + ", ".join(f"L{i}" for i in cfg.engram_layers) + ")", "engram", "5,4"),
         ("RMSNorm", "io", None),
         (f"Token mixer: KDA ({L - len(full)} layers) or full attention ({len(full)})", "kda", None),
@@ -244,57 +241,69 @@ def draw(cfg) -> Svg:
 
     # ---------------------------------------------------------------- panels B-E: components
     px, pw = 1190, 380
-    y = panel(s, px, 95, pw, f"KDA ({L - len(full)} layers)", "kda", [
-        f"{cfg.kda_heads} heads × {cfg.kda_head_dim}, short conv (kernel {cfg.kda_conv_size})",
-        "Delta rule with per-channel forget gate",
-        "Fixed-size state, compute linear in length",
-        f"Forget / output gates via rank-{cfg.kda_lowrank} bottleneck",
-        "fla chunk_kda kernel on GPU",
-    ])
-    y = panel(s, px, y + 10, pw, f"Full attention ({len(full)} layers: L{full[0]}, L{full[1]} … L{full[-1]})", "attn", [
-        f"GQA: {cfg.attn_heads} Q heads, {cfg.attn_kv_heads} KV heads, head dim {cfg.attn_head_dim}",
-        "No positional encoding (NoPE); KDA supplies position",
-        "QK-norm, elementwise sigmoid output gate",
-        "The last layer is always full attention",
-    ])
-    y = panel(s, px, y + 10, pw, f"MoE ({len(moe)} layers: L{moe[0]}–L{moe[-1]})", "moe", [
-        f"Top-{cfg.top_k} of {cfg.n_experts} routed experts (width {cfg.expert_inter})",
-        f"+ {cfg.n_shared} shared expert (width {cfg.shared_inter})",
-        "Router: fp32 sigmoid scores, bias used for selection",
-        f"Balancing: bias step ±{cfg.router_bias_update:g} + {sci(cfg.seq_aux_coef)} sequence aux loss",
-        f"L0: dense SwiGLU (width {cfg.dense_inter})",
-    ])
     rows = cfg.engram_rows if isinstance(cfg.engram_rows, int) else max(cfg.engram_rows)
-    y = panel(s, px, y + 10, pw, "Engram (" + ", ".join(f"L{i}" for i in cfg.engram_layers) + ")", "engram", [
-        f"{' and '.join(f'{o}-gram' for o in cfg.engram_orders)}, {cfg.engram_heads} hash heads per order",
-        f"~{rows / 1e3:.0f}K rows per head, d_mem {cfg.engram_dim}",
-        "Canonicalized vocab: 65536 → 42993 ids",
-        f"Gate (signed sqrt) + causal conv (kernel {cfg.engram_conv_size})",
-        "Tables in CPU memory, sparse Adam updates",
-    ])
-    rest = c["dense_ffn"] + c["router"] + c["engram_dense"] + c["norm_attnres_other"]
-    y = panel(s, px, y + 10, pw, f"Parameters ({total / 1e9:.3f}B total)", "io", [
-        f"Routed experts {c['moe_routed'] / 1e9:.3f}B, {cfg.top_k}/{cfg.n_experts} active"
-        f" ({routed_active / 1e9:.3f}B)",
-        f"Engram tables {engram / 1e9:.3f}B (CPU, not counted as active)",
-        f"KDA {c['mixer_kda'] / 1e9:.3f}B · full attn {c['mixer_full'] / 1e9:.3f}B · shared {c['moe_shared'] / 1e9:.3f}B",
-        f"Embedding {c['embedding'] / 1e9:.3f}B · LM head {c['lm_head'] / 1e9:.3f}B · other {rest / 1e9:.3f}B",
-    ])
-    assert y <= ay + ah + 1, y
+    cards = [
+        (f"KDA ({L - len(full)} layers)", "kda", [
+            f"{cfg.kda_heads} heads × {cfg.kda_head_dim}, short conv (kernel {cfg.kda_conv_size})",
+            "Delta rule with per-channel forget gate",
+            "Fixed-size state, compute linear in length",
+            f"Forget / output gates via rank-{cfg.kda_lowrank} bottleneck",
+            f"Pattern {cfg.layer_pattern}: 3 KDA layers, then 1 full attention",
+        ]),
+        (f"Full attention ({len(full)} layers: L{full[0]}, L{full[1]} … L{full[-1]})", "attn", [
+            f"GQA: {cfg.attn_heads} Q heads, {cfg.attn_kv_heads} KV heads, head dim {cfg.attn_head_dim}",
+            "No positional encoding (NoPE); KDA supplies position",
+            "QK-norm, elementwise sigmoid output gate",
+            "The last layer is always full attention",
+        ]),
+        (f"MoE ({len(moe)} layers: L{moe[0]}–L{moe[-1]})", "moe", [
+            f"Top-{cfg.top_k} of {cfg.n_experts} routed experts (width {cfg.expert_inter})",
+            f"+ {cfg.n_shared} shared expert (width {cfg.shared_inter})",
+            "Router: sigmoid scores plus a per-expert bias",
+            f"L0: dense SwiGLU (width {cfg.dense_inter})",
+        ]),
+        ("Engram (" + ", ".join(f"L{i}" for i in cfg.engram_layers) + ")", "engram", [
+            f"{' and '.join(f'{o}-gram' for o in cfg.engram_orders)}, {cfg.engram_heads} hash heads per order",
+            f"~{rows / 1e3:.0f}K rows per head, d_mem {cfg.engram_dim}",
+            "Canonicalized vocab: 65536 → 42993 ids",
+            f"Gate (signed sqrt) + causal conv (kernel {cfg.engram_conv_size})",
+        ]),
+    ]
+    gap = 16
+    lh = (ah - 41 * len(cards) - gap * (len(cards) - 1)) / sum(len(lines) for _, _, lines in cards)
+    y = ay - gap
+    for title, key, lines in cards:
+        y = panel(s, px, y + gap, pw, title, key, lines, lh=lh)
+    assert abs(y - (ay + ah)) < 1, y
 
-    # ---------------------------------------------------------------- training settings
+    # ---------------------------------------------------------------- parameters: where they are
     tx, ty, tw_, th = 790, 806, 780, 176
     s.rect(tx, ty, tw_, th, "panel")
     s.rect(tx, ty, tw_, 30, "io", rx=7)
-    s.text(tx + 12, ty + 15, "Pretraining setup (single RTX 4090)", 15, "bold", anchor="start")
-    for k, ln in enumerate([
-        "25B tokens at 4K context; 524,288 tokens per step (2 × 4096 × 64 accumulation), 47,684 steps",
-        "Muon (matrices, bf16 momentum) + AdamW (embedding, LM head, norms, router)",
-        "WSD schedule, peak LR 2e-3; last 20% decays as 1−√t with a math/code-heavier annealing mix",
-        "Fused kernels · partial recomputation · optimizer state offloaded to CPU",
-        "Then extended to 32K → 64K → 128K context (5B more tokens)",
-    ]):
-        s.text(tx + 14, ty + 34 + 27 * (k + 0.5) + 2, "· " + ln, 13, anchor="start", max_w=tw_ - 26)
+    s.text(tx + 12, ty + 15, f"Parameters ({total / 1e9:.3f}B total, {active / 1e6:.0f}M active per token)", 15, "bold",
+           anchor="start")
+    rest = c["dense_ffn"] + c["router"] + c["engram_dense"] + c["norm_attnres_other"]
+    parts = [("Routed experts", c["moe_routed"], "moe"), ("Engram tables", engram, "engram"), ("KDA", c["mixer_kda"], "kda"),
+             ("Embedding", c["embedding"], "io"), ("Shared experts", c["moe_shared"], "moe"), ("LM head", c["lm_head"], "io"),
+             ("Full attention", c["mixer_full"], "attn"), ("Other", rest, "dense")]
+    assert sum(n for _, n, _ in parts) == total
+    bx0, bw_, by, bh_ = tx + 14, tw_ - 28, ty + 44, 30
+    x = bx0
+    for label, n, key in parts:  # one bar, a segment per component, widths by parameter count
+        w = bw_ * n / total
+        s.rect(x, by, w, bh_, key, rx=2, sw=1.0)
+        full_label = f"{label} {n / 1e9:.3f}B"
+        if text_width(full_label, 12.5) < w - 10:
+            s.text(x + w / 2, by + bh_ / 2, full_label, 12.5)
+        x += w
+    per_row, cw = 4, bw_ / 4
+    for k, (label, n, key) in enumerate(parts):  # the same components with their counts, readable for the thin segments
+        cx, cy = bx0 + (k % per_row) * cw, by + bh_ + 22 + (k // per_row) * 24
+        s.rect(cx, cy - 7, 14, 14, key, rx=3, sw=1.0)
+        s.text(cx + 21, cy, f"{label} {n / 1e9:.3f}B", 12.5, anchor="start", max_w=cw - 26)
+    s.text(tx + 14, ty + th - 17, f"Active per token: {cfg.top_k} of {cfg.n_experts} routed experts ({routed_active / 1e9:.3f}B) plus "
+           "everything except the embedding and Engram lookups", 12.5, anchor="start",
+           color=MUTED, max_w=tw_ - 26)
     return s
 
 
